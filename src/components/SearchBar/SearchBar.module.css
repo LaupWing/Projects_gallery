@@ -2,9 +2,14 @@
     border: solid 1px var(--highlight-color); 
     padding: 5px;
     margin-top: 5vh;
-    width: 100%;
+    width: 80%;
+    display: flex;
+    border-radius: 5px;
 }
 
 .SearchBar input{
     border: none;
+    flex-grow: 1;
+    padding: 10px;
+    text-transform: uppercase;
 }
