@@ -1,0 +1,10 @@
+.SearchBar{
+    border: solid 1px var(--highlight-color); 
+    padding: 5px;
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.SearchBar input{
+    border: none;
+}
