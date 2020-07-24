@@ -1,0 +1,9 @@
+.icons{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.icons svg{
+    width: 50px;
+    margin: 10px;
+}
