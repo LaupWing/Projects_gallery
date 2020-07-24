@@ -1,8 +1,11 @@
 import React from 'react'
+import SearchBar from '../../../components/SearchBar/SearchBar'
 
 const Projects = ()=>{
     return(
-        <h2>Projects</h2>
+        <>
+            <SearchBar/>
+        </>
     )
 }
 

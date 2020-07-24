@@ -1,7 +1,6 @@
 .SearchBar{
     border: solid 1px var(--highlight-color); 
     padding: 5px;
-    margin-top: 5vh;
     width: 80%;
     display: flex;
     border-radius: 5px;
