@@ -4,6 +4,7 @@
     align-items: center;
 }
 .icons svg{
-    width: 50px;
+    width: 60px;
+    padding: 5px;
     margin: 10px;
 }
