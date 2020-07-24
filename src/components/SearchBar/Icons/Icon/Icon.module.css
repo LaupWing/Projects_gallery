@@ -1,0 +1,11 @@
+.filterOn > svg path{
+    fill: transparent;
+    stroke: var(--highlight-color);
+    stroke-width: 5px;
+}
+svg{
+    cursor: pointer;
+}
+svg>*{
+    transition: .5s;
+}

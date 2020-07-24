@@ -1,12 +1,8 @@
+import {TOGGLE_FILTER} from '../actionTypes'
 
-const initialState = {
-    projects: [],
-    filters:[]
-}
-
-
-const reducer = (state=initialState, action)=>{
-    switch(action.type){
-
+export const toggleFilter = (item)=>{
+    return {
+        item,
+        action: TOGGLE_FILTER
     }
 }

@@ -2,19 +2,18 @@ import * as actionTypes from '../actionTypes'
 
 const initialState = {
     projects: [],
-    filters:['Django', 'Electron']
+    filters:['django', 'electron']
 }
 
 
-const filterAdd = (state, action)=>{
-    const newFilters = [...state.filters, action.item];
-    return {
-        ...state,
-        filters: newFilters
-    };
-}
-const filterRemove = (state, action)=>{
-    const newFilters = [...state.filters].filter(x=>x===action.item);
+const filterToggle = (state, action)=>{
+    let newFilters = [...state.filters];
+    console.log(action)
+    if(newFilters.includes(action.item)){
+        newFilters = newFilters.filter(x=>x!==action.item);
+    }else{
+        newFilters.push(action.item)
+    }
     return {
         ...state,
         filters: newFilters
@@ -23,8 +22,7 @@ const filterRemove = (state, action)=>{
 
 const reducer = (state=initialState, action)=>{
     switch(action.type){
-        case actionTypes.ADD_FILTER: return filterAdd(state, action);
-        case actionTypes.REMOVE_FILTER: return filterRemove(state, action);
+        case actionTypes.TOGGLE_FILTER: return filterToggle(state, action);
         default: return state;
     }
 }

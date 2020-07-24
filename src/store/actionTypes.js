@@ -1,2 +1,1 @@
-export const ADD_FILTER = 'ADD_FILTER';
-export const REMOVE_FILTER = 'REMOVE_FILTER';
+export const TOGGLE_FILTER = 'TOGGLE_FILTER';

@@ -1,35 +1,25 @@
-import React, {Suspense} from 'react';
+import React from 'react';
 import styles from './Icons.module.css';
-import {connect} from 'react-redux'
+import Icon from './Icon/Icon';
 
-const Icons = ({filters}) => {
+const Icons = () => {
     const icons = [
-        'Django', 
-        'Electron', 
-        'Firebase', 
-        'Javascript', 
-        'Laravel', 
-        'Mongodb'
+        'django', 
+        'electron', 
+        'firebase', 
+        'javascript', 
+        'laravel', 
+        'mongodb'
     ];
 
     return (
         <div className={styles.icons}>
-            <Suspense fallback={<div>Loading...</div>}>
                 {icons.map((icon, i)=>{
-                    const Component = React.lazy(() =>
-                        import(`../../Icons/${icon}/${icon}`)
-                    );
-                    return <Component key={i} filters={filters}/>;
+                    return <Icon key={i} icon={icon}/>;
                 })}
-            </Suspense>
         </div>
     );
 }
 
-const mapStateToProps = state =>{
-    return {
-        filters: state.filters
-    }
-}
 
-export default connect(mapStateToProps)(Icons);
+export default Icons;
