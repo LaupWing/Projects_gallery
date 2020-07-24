@@ -4,6 +4,7 @@
     width: 80%;
     display: flex;
     border-radius: 5px;
+    flex-direction: column;
 }
 
 .SearchBar input{
