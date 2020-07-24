@@ -1,7 +1,8 @@
 import React, {Suspense} from 'react';
 import styles from './Icons.module.css';
+import {connect} from 'react-redux'
 
-const Icons = () => {
+const Icons = ({filters}) => {
     const icons = [
         'Django', 
         'Electron', 
@@ -18,11 +19,17 @@ const Icons = () => {
                     const Component = React.lazy(() =>
                         import(`../../Icons/${icon}/${icon}`)
                     );
-                    return <Component key={i}/>;
+                    return <Component key={i} filters={filters}/>;
                 })}
             </Suspense>
         </div>
     );
 }
 
-export default Icons;
+const mapStateToProps = state =>{
+    return {
+        filters: state.filters
+    }
+}
+
+export default connect(mapStateToProps)(Icons);
