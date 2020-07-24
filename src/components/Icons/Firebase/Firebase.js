@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Django.module.css';
+import styles from './Firebase.module.css';
 
 const Firebase = ()=>(
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227.26 232.29">
