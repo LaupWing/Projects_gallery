@@ -15,11 +15,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
 input,
 button{
     font-family: inherit;
 }
 
+button:focus,
 input:focus{
     border: none;
     outline: none;
@@ -32,4 +34,22 @@ li{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+.scale-up-enter-active{
+    animation: scaleUp 1s ease-in forwards;
+}
+.scale-up-leave-active{
+    animation: scaleUp 1s ease-in reverse;
+}
+
+@keyframes scaleUp{
+    from{
+        transform-origin: top;
+        transform: scaleY(0);
+    }
+    to{
+        transform-origin: top;
+        transform: scaleY(1);
+    }
 }
