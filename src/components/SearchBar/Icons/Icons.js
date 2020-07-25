@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Icons.module.css';
 import Icon from './Icon/Icon';
 
-const Icons = ({icons, extraStyle, title, nonActiveType}) => {
+const Icons = ({icons, extraStyle, title, nonActiveType, handleClick}) => {
     return (
         <div style={extraStyle} className={styles.icons}>
             <p>{title}</p>
@@ -11,6 +11,7 @@ const Icons = ({icons, extraStyle, title, nonActiveType}) => {
                     nonActiveType={nonActiveType} 
                     key={i} 
                     icon={icon}
+                    handleClick={handleClick}
                 />;
             })}
         </div>
