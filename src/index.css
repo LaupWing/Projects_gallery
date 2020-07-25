@@ -35,17 +35,3 @@ a{
     text-decoration: none;
     color: inherit;
 }
-.scale-up-enter-active{
-    transform: scaleY(1);
-}
-.scale-up-enter{
-    transition: 1s transform;
-    transform: scaleY(0);
-}
-.scale-up-leave{
-    transform: scaleY(1);
-}
-.scale-up-leave-active{
-    transform: scaleY(0);
-    transition: 1s transform;
-}

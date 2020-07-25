@@ -4,7 +4,6 @@ import MadeBy from './MadeBy/MadeBy'
 import Status from './Status/Status'
 import SortBy from './SortBy/SortBy'
 import MoreFilters from './MoreFilters/MoreFilters'
-import CSSTransition from 'react-transition-group/CSSTransition'
 
 const SearchBar = ()=>{
     const [showMore, setShowMore] = useState(false)
@@ -14,15 +13,7 @@ const SearchBar = ()=>{
             <MadeBy/>
             <Status/>
             <SortBy/>
-            <CSSTransition
-                mountOnEnter
-                unmountOnExit
-                in={showMore}
-                timeout={1000}
-                classNames='scale-up'
-            >
-                <MoreFilters/>
-            </CSSTransition>
+            <MoreFilters/>
             <button onClick={()=>setShowMore(!showMore)}>Show more</button>
         </div>
     );
