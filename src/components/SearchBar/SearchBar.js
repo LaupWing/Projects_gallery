@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
-import styles from './SearchBar.module.css'
-import MadeBy from './MadeBy/MadeBy'
-import Status from './Status/Status'
-import SortBy from './SortBy/SortBy'
-import MoreFilters from './MoreFilters/MoreFilters'
+import styles from './SearchBar.module.css';
+import MadeBy from './MadeBy/MadeBy';
+import Status from './Status/Status';
+import SortBy from './SortBy/SortBy';
+import MoreFilters from './MoreFilters/MoreFilters';
+import AnimateHeight from 'react-animate-height';
 
 const SearchBar = ()=>{
     const [showMore, setShowMore] = useState(false)
@@ -13,7 +14,15 @@ const SearchBar = ()=>{
             <MadeBy/>
             <Status/>
             <SortBy/>
-            <MoreFilters/>
+            <AnimateHeight
+                duration={ 500 }
+                height={ showMore ? 'auto' : 0}
+                style={{
+                        'width': '100%'
+                }}
+            >
+                <MoreFilters/>
+            </AnimateHeight>
             <button onClick={()=>setShowMore(!showMore)}>Show more</button>
         </div>
     );
