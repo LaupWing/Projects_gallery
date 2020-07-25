@@ -13,3 +13,9 @@
     padding: 10px;
     text-transform: uppercase;
 }
+
+.SearchBar svg{
+    width: 60px;
+    padding: 5px;
+    margin: 10px;
+}

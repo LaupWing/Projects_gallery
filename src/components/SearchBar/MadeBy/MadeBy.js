@@ -1,23 +1,16 @@
 import React from 'react';
-import styles from './Icons.module.css';
-import Icon from './Icon/Icon';
+import Icons from '../Icons/Icons'
 
 const MadeBy = () => {
     const icons = [
-        'django', 
-        'electron', 
-        'firebase', 
-        'javascript', 
-        'laravel', 
-        'mongodb'
+        'tutorial', 
+        'self',
     ];
 
     return (
-        <div className={styles.icons}>
-                {icons.map((icon, i)=>{
-                    return <Icon key={i} icon={icon}/>;
-                })}
-        </div>
+        <>
+            <Icons icons={icons}/>
+        </>
     );
 }
 
