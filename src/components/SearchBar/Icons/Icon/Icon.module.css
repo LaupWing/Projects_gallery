@@ -1,8 +1,9 @@
 .nonActive > svg path{
     fill: transparent;
     stroke: var(--highlight-color);
-    stroke-width: 8px;
+    stroke-width: 5px;
 }
+.nonActive > 
 svg{
     cursor: pointer;
 }
