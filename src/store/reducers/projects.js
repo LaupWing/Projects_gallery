@@ -23,6 +23,7 @@ const filterToggle = (state, action)=>{
 const reducer = (state=initialState, action)=>{
     switch(action.type){
         case actionTypes.TOGGLE_FILTER: return filterToggle(state, action);
+        case actionTypes.SET_SORTBY: return {...state, sortBy:action.item};
         default: return state;
     }
 }

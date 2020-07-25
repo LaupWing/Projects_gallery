@@ -1,7 +1,9 @@
 import React from 'react';
-import Icons from '../Icons/Icons'
+import Icons from '../Icons/Icons';
+import {connect} from 'react-redux';
+import * as actionTypes from '../../../store/actionTypes'
 
-const MadeBy = () => {
+const MadeBy = ({onToggleFilter}) => {
     const icons = [
         'tutorial', 
         'self',
@@ -18,10 +20,20 @@ const MadeBy = () => {
                 icons={icons}
                 title={'Made By'}
                 nonActiveType={'filters'}
+                handleClick={onToggleFilter}
             />
         </>
     );
 }
 
+const mapDispatchToProps = dispatch =>{
+    return {
+        onToggleFilter: (item)=> dispatch({
+            type: actionTypes.TOGGLE_FILTER,
+            item
+        })
+    };
+}
 
-export default MadeBy;
+
+export default connect(null, mapDispatchToProps)(MadeBy);

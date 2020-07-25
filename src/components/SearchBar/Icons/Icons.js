@@ -7,7 +7,11 @@ const Icons = ({icons, extraStyle, title, nonActiveType}) => {
         <div style={extraStyle} className={styles.icons}>
             <p>{title}</p>
             {icons.map((icon, i)=>{
-                return <Icon nonActiveType={nonActiveType} key={i} icon={icon}/>;
+                return <Icon 
+                    nonActiveType={nonActiveType} 
+                    key={i} 
+                    icon={icon}
+                />;
             })}
         </div>
     );

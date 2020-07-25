@@ -19,7 +19,7 @@ const Icon = ({icon, nonActiveType, onToggleFilter, filters, sortBy})=>{
     return (
         <div 
             onClick={()=>onToggleFilter(icon)} 
-            className={activeOut ? styles.active: ''}
+            className={activeOut ? styles.nonActive: ''}
         >
             <Component/>
         </div>
