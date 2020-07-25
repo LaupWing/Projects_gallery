@@ -1,16 +1,19 @@
 .SearchBar{
-    border: solid 1px var(--highlight-color); 
-    padding: 5px;
+    border: solid 1px var(--highlight-color);
+    border-radius: 5px;
     width: 80%;
     display: flex;
-    border-radius: 5px;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .SearchBar input{
     border: none;
-    flex-grow: 1;
-    padding: 10px;
+    background: transparent;
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
     text-transform: uppercase;
 }
 

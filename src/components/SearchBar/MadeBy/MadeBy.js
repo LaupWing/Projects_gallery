@@ -6,10 +6,18 @@ const MadeBy = () => {
         'tutorial', 
         'self',
     ];
+    const style = {
+        'border-top': 'solid var(--highlight-color) 1px',
+        'border-right': 'solid var(--highlight-color) 1px'
+    }
 
     return (
         <>
-            <Icons icons={icons}/>
+            <Icons 
+                extraStyle={style} 
+                icons={icons}
+                title={'Made By'}
+            />
         </>
     );
 }
