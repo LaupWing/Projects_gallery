@@ -15,8 +15,8 @@ const SearchBar = ()=>{
             <Status/>
             <SortBy/>
             <CSSTransition
-                mountOnEnter={true}
-                unmountOnExit={true}
+                mountOnEnter
+                unmountOnExit
                 in={showMore}
                 timeout={1000}
                 classNames='scale-up'

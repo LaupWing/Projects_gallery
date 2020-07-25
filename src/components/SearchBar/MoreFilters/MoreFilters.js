@@ -13,7 +13,6 @@ const MoreFilters = ({onToggleFilter}) => {
     ];
     const style = {
         'borderTop': 'solid var(--highlight-color) 1px',
-        'borderRight': 'solid var(--highlight-color) 1px',
         width: '100%'
     }
 
