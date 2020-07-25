@@ -4,6 +4,7 @@
     box-sizing: border-box;
     --highlight-color: #ccc;
     --main-font: 'Open Sans', sans-serif;
+    --accent-color: #FA9FCA;
 }
 
 body {
