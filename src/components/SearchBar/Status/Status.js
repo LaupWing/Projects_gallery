@@ -7,8 +7,8 @@ const Status = () => {
         'unfinished',
     ];
     const style = {
-        'border-top': 'solid var(--highlight-color) 1px',
-        'border-right': 'solid var(--highlight-color) 1px'
+        'borderTop': 'solid var(--highlight-color) 1px',
+        'borderRight': 'solid var(--highlight-color) 1px'
     }
 
     return (

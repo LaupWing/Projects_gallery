@@ -1,3 +1,7 @@
-.Up{
-    transform: rotate(180deg);    
+.Down{
+    padding: 10px !important;    
+}
+
+.Down path{
+    fill: var(--accent-color);
 }

@@ -8,6 +8,8 @@ import Finished from '../../../components/Icons/Finished/Finished';
 import Unfinished from '../../../components/Icons/Unfinished/Unfinished';
 import Self from '../../../components/Icons/Self/Self';
 import Tutorial from '../../../components/Icons/Tutorial/Tutorial';
+import Up from '../../../components/Icons/Up/Up';
+import Down from '../../../components/Icons/Down/Down';
 
 export default {
     django: DjangoIcon,
@@ -20,4 +22,6 @@ export default {
     unfinished: Unfinished,
     self: Self,
     tutorial: Tutorial,
+    up: Up,
+    down: Down,
 }

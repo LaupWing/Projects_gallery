@@ -1,10 +1,10 @@
 import React from 'react';
 import Icons from '../Icons/Icons'
 
-const MadeBy = () => {
+const SortBy = () => {
     const icons = [
-        'tutorial', 
-        'self',
+        'down', 
+        'up',
     ];
     const style = {
         'borderTop': 'solid var(--highlight-color) 1px',
@@ -16,11 +16,11 @@ const MadeBy = () => {
             <Icons 
                 extraStyle={style} 
                 icons={icons}
-                title={'Made By'}
+                title={'Sort By'}
             />
         </>
     );
 }
 
 
-export default MadeBy;
+export default SortBy;
