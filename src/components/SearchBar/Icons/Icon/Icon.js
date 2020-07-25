@@ -4,19 +4,22 @@ import styles from './Icon.module.css';
 import * as actionTypes from '../../../../store/actionTypes'
 import icons_loader from '../icons_loader'
 
-function checkActive(icon, activeType, item){
-    if(activeType === 'filters'){
-        return item.find(x=>x===icon)? true : false;
+function checkActive(icon, nonActiveType, filters, sortBy){
+    if(nonActiveType === 'filters'){
+        return filters.find(x=>x===icon)? true : false;
+    }
+    else if(nonActiveType === 'sortBy'){
+        return sortBy !== icon;
     }
 }
 
-const Icon = ({icon, activeType, onToggleFilter, filters})=>{
+const Icon = ({icon, nonActiveType, onToggleFilter, filters, sortBy})=>{
     const Component = icons_loader[icon];
-    const activeOn = checkActive(icon, activeType, filters);
+    const activeOut = checkActive(icon, nonActiveType, filters, sortBy);
     return (
         <div 
             onClick={()=>onToggleFilter(icon)} 
-            className={activeOn ? styles.active: ''}
+            className={activeOut ? styles.active: ''}
         >
             <Component/>
         </div>
@@ -25,7 +28,8 @@ const Icon = ({icon, activeType, onToggleFilter, filters})=>{
 
 const mapStateToProps = state =>{
     return {
-        filters: state.filters
+        filters: state.filters,
+        sortBy: state.sortBy
     };
 }
 const mapDispatchToProps = dispatch =>{

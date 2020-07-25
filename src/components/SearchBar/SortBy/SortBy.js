@@ -18,7 +18,7 @@ const SortBy = () => {
                 extraStyle={style} 
                 icons={icons}
                 title={'Sort By'}
-                activeType={'filters'}
+                nonActiveType={'sortBy'}
             />
         </>
     );

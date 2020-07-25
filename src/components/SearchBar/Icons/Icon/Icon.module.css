@@ -1,7 +1,7 @@
 .active > svg path{
     fill: transparent;
     stroke: var(--highlight-color);
-    stroke-width: 5px;
+    stroke-width: 8px;
 }
 svg{
     cursor: pointer;

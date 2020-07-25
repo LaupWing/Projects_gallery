@@ -17,7 +17,7 @@ const Status = () => {
                 extraStyle={style} 
                 icons={icons}
                 title={'Status'}
-                activeType={'filters'}
+                nonActiveType={'filters'}
             />
         </>
     );

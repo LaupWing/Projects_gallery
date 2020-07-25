@@ -2,13 +2,13 @@ import * as actionTypes from '../actionTypes'
 
 const initialState = {
     projects: [],
-    filters:['django', 'electron']
+    filters:['django', 'electron'],
+    sortBy: 'favorite'
 }
 
 
 const filterToggle = (state, action)=>{
     let newFilters = [...state.filters];
-    console.log(action)
     if(newFilters.includes(action.item)){
         newFilters = newFilters.filter(x=>x!==action.item);
     }else{
