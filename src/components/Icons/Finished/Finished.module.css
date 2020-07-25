@@ -1,0 +1,6 @@
+.Finished{
+    padding: 6px!important;
+}
+.Finished path{
+    fill: var(--accent-color);
+}
