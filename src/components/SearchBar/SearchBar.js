@@ -3,6 +3,7 @@ import styles from './SearchBar.module.css'
 import MadeBy from './MadeBy/MadeBy'
 import Status from './Status/Status'
 import SortBy from './SortBy/SortBy'
+import MoreFilters from './MoreFilters/MoreFilters'
 
 const SearchBar = ()=>{
     return(
@@ -11,6 +12,7 @@ const SearchBar = ()=>{
             <MadeBy/>
             <Status/>
             <SortBy/>
+            <MoreFilters/>
             <button>Show more</button>
         </div>
     );
