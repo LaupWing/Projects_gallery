@@ -9,7 +9,7 @@ import projects from './store/reducers/projects';
 import {Provider} from 'react-redux';
 
 const store = createStore(projects);
-console.log( 'test')
+
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
