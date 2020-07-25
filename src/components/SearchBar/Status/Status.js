@@ -1,7 +1,9 @@
 import React from 'react';
-import Icons from '../Icons/Icons'
+import Icons from '../Icons/Icons';
+import {connect} from 'react-redux';
+import * as actionTypes from '../../../store/actionTypes';
 
-const Status = () => {
+const Status = ({onToggleFilter}) => {
     const icons = [
         'finished', 
         'unfinished',
@@ -18,10 +20,19 @@ const Status = () => {
                 icons={icons}
                 title={'Status'}
                 nonActiveType={'filters'}
+                handleClick={onToggleFilter}
             />
         </>
     );
 }
 
+const mapDispatchToProps = dispatch =>{
+    return {
+        onToggleFilter: (item)=> dispatch({
+            type: actionTypes.TOGGLE_FILTER,
+            item
+        })
+    };
+}
 
-export default Status;
+export default connect(null, mapDispatchToProps)(Status);
