@@ -3,6 +3,7 @@ import Icons from '../Icons/Icons'
 
 const SortBy = () => {
     const icons = [
+        'favorite',
         'down', 
         'up',
     ];
@@ -17,6 +18,7 @@ const SortBy = () => {
                 extraStyle={style} 
                 icons={icons}
                 title={'Sort By'}
+                activeType={'filters'}
             />
         </>
     );

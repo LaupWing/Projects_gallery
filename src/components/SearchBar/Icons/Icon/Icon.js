@@ -4,13 +4,19 @@ import styles from './Icon.module.css';
 import * as actionTypes from '../../../../store/actionTypes'
 import icons_loader from '../icons_loader'
 
-const Icon = ({icon, filters, onToggleFilter})=>{
+function checkActive(icon, activeType, item){
+    if(activeType === 'filters'){
+        return item.find(x=>x===icon)? true : false;
+    }
+}
+
+const Icon = ({icon, activeType, onToggleFilter, filters})=>{
     const Component = icons_loader[icon];
-    const filterOn = filters.find(x=>x===icon)? true : false;
+    const activeOn = checkActive(icon, activeType, filters);
     return (
         <div 
             onClick={()=>onToggleFilter(icon)} 
-            className={filterOn ? styles.filterOn: ''}
+            className={activeOn ? styles.active: ''}
         >
             <Component/>
         </div>

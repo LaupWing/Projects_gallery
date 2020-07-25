@@ -1,4 +1,4 @@
-.filterOn > svg path{
+.active > svg path{
     fill: transparent;
     stroke: var(--highlight-color);
     stroke-width: 5px;

@@ -17,6 +17,7 @@ const MadeBy = () => {
                 extraStyle={style} 
                 icons={icons}
                 title={'Made By'}
+                activeType={'filters'}
             />
         </>
     );
