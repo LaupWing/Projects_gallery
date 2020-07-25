@@ -11,6 +11,7 @@ const SearchBar = ()=>{
             <MadeBy/>
             <Status/>
             <SortBy/>
+            <button>Show more</button>
         </div>
     );
 }
