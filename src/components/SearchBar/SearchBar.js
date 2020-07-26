@@ -23,7 +23,7 @@ const SearchBar = ()=>{
             >
                 <MoreFilters/>
             </AnimateHeight>
-            <button onClick={()=>setShowMore(!showMore)}>Show more</button>
+            <button onClick={()=>setShowMore(!showMore)}>{showMore ? 'Hide Filters':'Show more'}</button>
         </div>
     );
 }
