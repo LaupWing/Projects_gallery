@@ -1,9 +1,9 @@
-.nonActive > svg path{
+.nonActive > svg path,
+.nonActive > svg ellipse{
     fill: transparent;
     stroke: var(--highlight-color);
     stroke-width: 5px;
 }
-.nonActive > 
 svg{
     cursor: pointer;
 }

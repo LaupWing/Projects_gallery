@@ -11,6 +11,8 @@ const MoreFilters = ({onToggleFilter}) => {
         'firebase',
         'mongodb',
         'node',
+        'javascript',
+        'php',
         'python',
         'react',
         'vue'

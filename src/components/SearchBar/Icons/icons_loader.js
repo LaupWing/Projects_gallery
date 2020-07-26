@@ -1,7 +1,6 @@
 import DjangoIcon from '../../../components/Icons/Django/Django';
 import ElectronIcon from '../../../components/Icons/Electron/Electron';
 import FirebaseIcon from '../../../components/Icons/Firebase/Firebase';
-import JavascriptIcon from '../../../components/Icons/Javascript/Javascript';
 import LaravelIcon from '../../../components/Icons/Laravel/Laravel';
 import MongodbIcon from '../../../components/Icons/Mongodb/Mongodb';
 import Finished from '../../../components/Icons/Finished/Finished';
@@ -16,12 +15,12 @@ import Python from '../../Icons/Python/Python';
 import ReactIcon from '../../Icons/React/ReactIcon';
 import Vue from '../../Icons/Vue/Vue';
 import Favorite from '../../Icons/Favorite/Favorite';
+import Javascript from '../../Icons/Javascript/Javascript';
 
 export default {
     django: DjangoIcon,
     electron: ElectronIcon,
     firebase: FirebaseIcon,
-    javascript: JavascriptIcon,
     laravel: LaravelIcon,
     mongodb: MongodbIcon,
     finished: Finished,
@@ -35,5 +34,6 @@ export default {
     php: Php,
     python: Python,
     react: ReactIcon,
-    vue: Vue
+    vue: Vue,
+    javascript: Javascript,
 }
