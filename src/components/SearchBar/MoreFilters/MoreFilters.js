@@ -10,6 +10,10 @@ const MoreFilters = ({onToggleFilter}) => {
         'electron',
         'firebase',
         'mongodb',
+        'node',
+        'python',
+        'react',
+        'vue'
     ];
     const style = {
         'borderTop': 'solid var(--highlight-color) 1px',

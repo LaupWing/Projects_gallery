@@ -10,6 +10,11 @@ import Self from '../../../components/Icons/Self/Self';
 import Tutorial from '../../../components/Icons/Tutorial/Tutorial';
 import Up from '../../../components/Icons/Up/Up';
 import Down from '../../../components/Icons/Down/Down';
+import Node from '../../Icons/Node/Node';
+import Php from '../../Icons/Php/Php';
+import Python from '../../Icons/Python/Python';
+import ReactIcon from '../../Icons/React/ReactIcon';
+import Vue from '../../Icons/Vue/Vue';
 import Favorite from '../../Icons/Favorite/Favorite';
 
 export default {
@@ -25,5 +30,10 @@ export default {
     tutorial: Tutorial,
     up: Up,
     down: Down,
-    favorite: Favorite
+    favorite: Favorite,
+    node: Node,
+    php: Php,
+    python: Python,
+    react: ReactIcon,
+    vue: Vue
 }
