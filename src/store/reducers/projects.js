@@ -1,18 +1,18 @@
-import * as actionTypes from '../actionTypes'
+import * as actionTypes from '../actionTypes';
+import projects from './projects.json';
 
 const initialState = {
-    projects: [],
+    projects,
     filters:[],
     sortBy: 'favorite'
-}
-
+};
 
 const filterToggle = (state, action)=>{
     let newFilters = [...state.filters];
     if(newFilters.includes(action.item)){
         newFilters = newFilters.filter(x=>x!==action.item);
     }else{
-        newFilters.push(action.item)
+        newFilters.push(action.item);
     }
     return {
         ...state,
