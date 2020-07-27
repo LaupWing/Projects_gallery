@@ -4,7 +4,10 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    position: sticky;
     flex-wrap: wrap;
+    top: 0;
+    background: var(--main-color);
 }
 
 .SearchBar input{
