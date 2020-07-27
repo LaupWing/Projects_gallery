@@ -5,7 +5,7 @@ const Project = ({project}) => {
     const image = require(`../../../../assets/projects_images/${project.image}`)
     return (
         <div className={styles.Project}>
-            {project.title}
+            <h2>{project.title}</h2>
             <img src={image}/>
         </div>
     );
