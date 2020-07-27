@@ -30,3 +30,8 @@
 .field:first-of-type{
     border-right:solid 1px var(--highlight-color);
 }
+
+.Project svg{
+    width: 40px;
+    padding: 5px;
+}
