@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './Css.module.css'
+import React from 'react';
+import styles from './Css.module.css';
 
 const Css = () => {
     return (
@@ -16,4 +16,4 @@ const Css = () => {
     )
 }
 
-export default Css
+export default Css;

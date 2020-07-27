@@ -15,7 +15,8 @@ const MoreFilters = ({onToggleFilter}) => {
         'php',
         'python',
         'react',
-        'vue'
+        'vue',
+        'css'
     ];
     const style = {
         'borderTop': 'solid var(--highlight-color) 1px',
