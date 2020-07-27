@@ -1,0 +1,27 @@
+.Tooltip{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateY(-100%) translateX(-50%);
+    background: var(--accent-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.Tooltip::after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: var(--accent-color);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateY(50%) translateX(-50%) rotate(45deg);
+    z-index: -1;
+}
+
+.Tooltip h2{
+    color: var(--main-color);
+    font-weight: normal;
+    font-size: .8rem;
+}

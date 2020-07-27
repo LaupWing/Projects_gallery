@@ -5,8 +5,14 @@ import * as actionTypes from '../../../store/actionTypes'
 
 const MadeBy = ({onToggleFilter}) => {
     const icons = [
-        'tutorial', 
-        'self',
+        {
+            message: 'Made by following a tutorial',
+            icon:'tutorial'
+        }, 
+        {
+            message: 'Made by myself',
+            icon:'self'
+        },
     ];
     const style = {
         'borderTop': 'solid var(--highlight-color) 1px',

@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {connect} from 'react-redux';
+import Tooltip from './Tooltip/Tooltip';
 import styles from './Icon.module.css';
 import icons_loader from '../../../../components/Icons/icons_loader';
 
@@ -12,14 +13,21 @@ function checkActive(icon, nonActiveType, filters, sortBy){
     }
 }
 
-const Icon = ({icon, nonActiveType, handleClick, filters, sortBy})=>{
+const Icon = ({icon,message, nonActiveType, handleClick, filters, sortBy})=>{
     const Component = icons_loader[icon];
     const activeOut = checkActive(icon, nonActiveType, filters, sortBy);
+    const [showTooltip, setShowTooltip] = useState(false);
+
     return (
         <div 
             onClick={()=>handleClick(icon)} 
-            className={activeOut ? styles.nonActive: ''}
+            className={[styles.Icon, activeOut ? styles.nonActive: ''].join(' ')}
+            onMouseOver={()=>setShowTooltip(true)}
+            onMouseOut={()=>setShowTooltip(false)}
         >
+            {showTooltip && <Tooltip
+                message={message}
+            />}
             <Component/>
         </div>
     );

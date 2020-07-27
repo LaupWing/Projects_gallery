@@ -1,3 +1,7 @@
+.Icon{
+    position: relative;
+}
+
 .nonActive > svg path,
 .nonActive > svg ellipse{
     fill: transparent;

@@ -5,9 +5,18 @@ import * as actionTypes from '../../../store/actionTypes'
 
 const SortBy = ({onSortBy}) => {
     const icons = [
-        'favorite',
-        'down', 
-        'up',
+        {
+            message: 'Best project first',
+            icon:'favorite'
+        },
+        {
+            message: 'Newest first',
+            icon:'down'
+        }, 
+        {
+            message: 'Oldest first',
+            icon:'up'
+        },
     ];
     const style = {
         'borderTop': 'solid var(--highlight-color) 1px',

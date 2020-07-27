@@ -5,8 +5,14 @@ import * as actionTypes from '../../../store/actionTypes';
 
 const Status = ({onToggleFilter}) => {
     const icons = [
-        'finished', 
-        'unfinished',
+        {
+            message: 'Finished projects',
+            icon:'finished'
+        }, 
+        {
+            message: 'Unfinished projects',
+            icon:'unfinished'
+        },
     ];
     const style = {
         'borderTop': 'solid var(--highlight-color) 1px',
