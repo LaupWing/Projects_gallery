@@ -2,7 +2,7 @@ import * as actionTypes from '../actionTypes'
 
 const initialState = {
     projects: [],
-    filters:['django', 'electron'],
+    filters:[],
     sortBy: 'favorite'
 }
 
