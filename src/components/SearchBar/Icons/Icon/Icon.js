@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import styles from './Icon.module.css';
-import icons_loader from '../icons_loader';
+import icons_loader from '../../../../components/Icons/icons_loader';
 
 function checkActive(icon, nonActiveType, filters, sortBy){
     if(nonActiveType === 'filters'){
