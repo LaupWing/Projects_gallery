@@ -66,16 +66,34 @@
     cursor: pointer;
     transition: .5s;
 }
-.link:hover{
+.link:hover,
+.seeMore:hover{
     background: var(--accent-color);
 }
-.link:hover h3{
+.link:hover h3,
+.seeMore:hover{
     color: var(--main-color);
 }
-.link:hover svg path{
+.link:hover svg path,
+.seeMore:hover svg path{
     fill: var(--main-color);
 }
 
 .link svg{
     width: 50px;
+}
+.seeMore{
+    border-top: 1px solid var(--highlight-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.seeMore svg{
+    width: 30px;
+    margin-left: 5px;
+}
+.seeMore svg path{
+    fill: var(--highlight-color);
 }

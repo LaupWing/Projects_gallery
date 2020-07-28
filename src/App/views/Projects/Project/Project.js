@@ -9,6 +9,7 @@ const Project = ({project}) => {
     const MadeBy = icons_loader[project.madeBy];
     const Status = icons_loader[project.status];
     const [showMore, setShowMore] = useState(false);
+    const Link = icons_loader['link'];
 
     return (
         <div 
@@ -45,6 +46,7 @@ const Project = ({project}) => {
                     return <Icon key={i}/>
                 })}
             </div>
+            <h3 className={styles.seeMore}>Click here to see more <Link/></h3>
         </div>
     );
 }

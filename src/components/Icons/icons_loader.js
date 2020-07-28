@@ -18,6 +18,7 @@ import Favorite from './Favorite/Favorite';
 import Javascript from './Javascript/Javascript';
 import Css from './Css/Css';
 import Github from './Github/Github';
+import Link from './Link/Link';
 
 export default {
     django: DjangoIcon,
@@ -40,4 +41,5 @@ export default {
     javascript: Javascript,
     css: Css,
     github: Github,
+    link: Link,
 }
