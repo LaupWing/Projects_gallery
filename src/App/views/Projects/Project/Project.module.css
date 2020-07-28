@@ -11,14 +11,29 @@
 .Project img{
     width: 100%;
 }
-
-.stack{
+.imageContainer{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+.imageContainer img{
+    object-fit: cover;
+    height: 100%;
+}
+.info{
+    position: absolute;
+    width: 100%;
+    background: var(--main-color);
+    top: 0;
+}
+.stack, .info{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border-top: solid 1px var(--highlight-color);
 }
-.stack h3{
+.Project h3{
     width: 100%;
     color: var(--highlight-color);
     font-weight: normal;

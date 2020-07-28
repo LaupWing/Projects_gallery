@@ -1,3 +1,6 @@
 .Tutorial path{
     fill: var(--accent-color);
 }
+.Tutorial{
+    margin-top: 5px;
+}
