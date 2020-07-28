@@ -27,6 +27,7 @@
     background: var(--main-color);
     top: 0;
     height: 100%;
+    transition: .5s;
 }
 .stack, .info{
     display: flex;
@@ -53,4 +54,8 @@
 .Project svg{
     width: 40px;
     padding: 5px;
+}
+
+.hidden{
+    transform: translateY(100%);
 }
