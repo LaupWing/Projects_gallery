@@ -1,6 +1,7 @@
 .Project{
     border: solid var(--highlight-color) 1px;
     border-radius: 2px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
 }
 
 .Project h2{
