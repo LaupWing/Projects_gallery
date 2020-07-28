@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import styles from './Project.module.css';
 import icons_loader from '../../../../components/Icons/icons_loader'; 
+import Eye from '../../../../components/Icons/Eye/Eye';
+import Github from '../../../../components/Icons/Github/Github';
 
 const Project = ({project}) => {
     const image = require(`../../../../assets/projects_images/${project.image}`);
@@ -25,6 +27,14 @@ const Project = ({project}) => {
                     <div className={styles.field}>
                         <h3>Status</h3>
                         <Status/>
+                    </div>
+                    <div className={styles.link}>
+                        <h3>Click here for live version</h3>
+                        <Eye/>
+                    </div>
+                    <div className={styles.link}>
+                        <h3>Click here for github link</h3>
+                        <Github/>
                     </div>
                 </div>
             </div>
