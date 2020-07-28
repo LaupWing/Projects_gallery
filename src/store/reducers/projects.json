@@ -3,30 +3,35 @@
         "title": "test",
         "image": "hayden.PNG",
         "madeBy": "self",
-        "status": "finished"
+        "status": "finished",
+        "stack": ["css"]
     },
     {
         "title": "test",
         "image": "hayden.PNG",
         "madeBy": "self",
-        "status": "finished"
+        "status": "finished",
+        "stack": ["css", "php"]
     },
     {
         "title": "test",
         "image": "hayden.PNG",
         "madeBy": "tutorial",
-        "status": "finished"
+        "status": "finished",
+        "stack": ["css", "react"]
     },
     {
         "title": "test",
         "image": "hayden.PNG",
         "madeBy": "self",
-        "status": "unfinished"
+        "status": "unfinished",
+        "stack": ["css", "vue"]
     },
     {
         "title": "test",
         "image": "hayden.PNG",
         "madeBy": "tutorial",
-        "status": "unfinished"
+        "status": "unfinished",
+        "stack": ["css", "django", "php"]
     }
 ]
