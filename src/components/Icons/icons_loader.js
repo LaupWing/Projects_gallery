@@ -17,6 +17,7 @@ import Vue from './Vue/Vue';
 import Favorite from './Favorite/Favorite';
 import Javascript from './Javascript/Javascript';
 import Css from './Css/Css';
+import Github from './Github/Github';
 
 export default {
     django: DjangoIcon,
@@ -38,4 +39,5 @@ export default {
     vue: Vue,
     javascript: Javascript,
     css: Css,
+    github: Github,
 }
