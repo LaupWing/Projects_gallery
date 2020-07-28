@@ -26,6 +26,7 @@
     width: 100%;
     background: var(--main-color);
     top: 0;
+    height: 100%;
 }
 .stack, .info{
     display: flex;
