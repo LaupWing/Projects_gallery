@@ -13,7 +13,8 @@ function checkActive(icon, nonActiveType, filters, sortBy){
     }
 }
 
-const Icon = ({icon,message, nonActiveType, handleClick, filters, sortBy})=>{
+const Icon = ({iconObj, nonActiveType, handleClick, filters, sortBy})=>{
+    const {icon, message} = iconObj;
     const Component = icons_loader[icon];
     const activeOut = checkActive(icon, nonActiveType, filters, sortBy);
     const [showTooltip, setShowTooltip] = useState(false);

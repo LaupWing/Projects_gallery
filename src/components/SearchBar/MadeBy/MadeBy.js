@@ -3,7 +3,7 @@ import Icons from '../Icons/Icons';
 import {connect} from 'react-redux';
 import * as actionTypes from '../../../store/actionTypes'
 
-const MadeBy = ({onToggleFilter}) => {
+const MadeBy = ({onToggleFilter, setMessage}) => {
     const icons = [
         {
             message: 'Made by following a tutorial',
@@ -17,6 +17,13 @@ const MadeBy = ({onToggleFilter}) => {
     const style = {
         'borderTop': 'solid var(--highlight-color) 1px',
         'borderRight': 'solid var(--highlight-color) 1px'
+    }
+    const setFilter = (item)=>{
+        setMessage({
+            section: 'Made By',
+            item
+        })
+        onToggleFilter(item)
     }
 
     return (

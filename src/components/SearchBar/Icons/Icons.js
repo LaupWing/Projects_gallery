@@ -10,8 +10,7 @@ const Icons = ({icons, extraStyle, title, nonActiveType, handleClick}) => {
                 return <Icon 
                     nonActiveType={nonActiveType} 
                     key={i} 
-                    icon={icon.icon}
-                    message={icon.message}
+                    iconObj={icon}
                     handleClick={handleClick}
                 />;
             })}
