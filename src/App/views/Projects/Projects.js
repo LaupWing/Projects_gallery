@@ -6,12 +6,7 @@ import styles from './Projects.module.css';
 
 const Projects = ({projects, filters})=>{
     const filtered = projects
-        .filter(x=>{
-            const exists = x.stack.find(y=>filters.includes(y))
-            if(!exists){
-                return x
-            }
-        })
+        .filter(x=>!x.stack.find(y=>filters.includes(y)))
     return(
         <>
             <SearchBar/>
