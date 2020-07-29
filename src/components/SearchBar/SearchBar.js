@@ -9,15 +9,15 @@ import {connect} from 'react-redux';
 import * as actionTypes from '../../store/actionTypes';
 
 const SearchBar = ({setMessage, onToggleFilter, onSortBy})=>{
-    const [showMore, setShowMore] = useState(false)
+    const [showMore, setShowMore] = useState(false);
 
     const setModifier = (iconObj)=>{
         console.log(iconObj)
-        setMessage(iconObj)
+        setMessage(iconObj);
         if(iconObj.section === 'Sort By'){
-            onSortBy(iconObj.icon)
+            onSortBy(iconObj.icon);
         }else{
-            onToggleFilter(iconObj.icon)
+            onToggleFilter(iconObj.icon);
         }
     }
     return(

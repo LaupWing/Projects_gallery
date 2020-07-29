@@ -1,9 +1,7 @@
 import React from 'react';
 import Icons from '../Icons/Icons';
-import {connect} from 'react-redux';
-import * as actionTypes from '../../../store/actionTypes';
 
-const MoreFilters = ({onToggleFilter}) => {
+const MoreFilters = ({setModifier}) => {
     const icons = [
         {
             message: 'Django projects',
@@ -76,20 +74,11 @@ const MoreFilters = ({onToggleFilter}) => {
                 icons={icons}
                 title={'More Filters'}
                 nonActiveType={'filters'}
-                handleClick={onToggleFilter}
+                handleClick={setModifier}
                 extraStyle={style}
             />
         </>
     );
-}
+};
 
-const mapDispatchToProps = dispatch =>{
-    return {
-        onToggleFilter: (item)=> dispatch({
-            type: actionTypes.TOGGLE_FILTER,
-            item
-        })
-    };
-}
-
-export default connect(null, mapDispatchToProps)(MoreFilters);
+export default MoreFilters;
