@@ -4,7 +4,7 @@ import moment from 'moment';
 
 projects.forEach(p=>{
     console.log(p.createdAt)
-    console.log(moment(p.createdAt, "MMMM D YYYY"))
+    console.log(moment(p.createdAt, "D MMMM YYYY").format('X'))
     console.log(moment(p.createdAt, "D MMMM YYYY").fromNow())
 })
 const initialState = {
