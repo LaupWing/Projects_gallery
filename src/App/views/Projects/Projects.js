@@ -3,11 +3,11 @@ import SearchBar from '../../../components/SearchBar/SearchBar';
 import {connect} from 'react-redux';
 import Project from './Project/Project';
 import styles from './Projects.module.css';
-import Message from '../../../components/Message/Message';
+import Messages from '../../../components/Messages/Messages';
 import moment from 'moment';
 
 const Projects = ({projects, filters, sortBy})=>{
-    const [message, setMessage] = useState(false);
+    const [messages, setMessages] = useState([]);
 
     const filtered = projects
         .filter(x=>!x.stack.find(y=>filters.includes(y)))
@@ -23,11 +23,15 @@ const Projects = ({projects, filters, sortBy})=>{
                 return timestampA > timestampB ? -1 : timestampB > timestampA ? 1 : 0
             }
         })
+    const addMessage = (iconObj)=>{
+        const addedMessage = [...messages, iconObj]
+        setMessages(addedMessage)
+    }
     
     return(
         <>
-            {message && <Message message={message}/>}
-            <SearchBar setMessage={setMessage}/>
+            {messages.length>0 && <Messages messages={messages}/>}
+            <SearchBar setMessage={addMessage}/>
             <div className={styles.Projects}>
                 {filtered.map((project,i)=><Project project={project} key={i}/>)}
             </div>
