@@ -4,13 +4,19 @@ import {connect} from 'react-redux';
 import Project from './Project/Project';
 import styles from './Projects.module.css';
 
-const Projects = ({projects})=>{
-    
+const Projects = ({projects, filters})=>{
+    const filtered = projects
+        .filter(x=>{
+            const exists = x.stack.find(y=>filters.includes(y))
+            if(!exists){
+                return x
+            }
+        })
     return(
         <>
             <SearchBar/>
             <div className={styles.Projects}>
-                {projects.map((project,i)=><Project project={project} key={i}/>)}
+                {filtered.map((project,i)=><Project project={project} key={i}/>)}
             </div>
         </>
     )
