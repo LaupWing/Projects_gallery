@@ -1,4 +1,7 @@
 .Messages{
     position: fixed;
     top: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
 }
