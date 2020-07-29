@@ -1,7 +1,7 @@
 import React from 'react';
 import Icons from '../Icons/Icons';
 
-const MadeBy = ({setFilter}) => {
+const MadeBy = ({setModifier}) => {
     const icons = [
         {
             message: 'Made by following a tutorial',
@@ -26,7 +26,7 @@ const MadeBy = ({setFilter}) => {
                 icons={icons}
                 title={'Made By'}
                 nonActiveType={'filters'}
-                handleClick={setFilter}
+                handleClick={setModifier}
             />
         </>
     );

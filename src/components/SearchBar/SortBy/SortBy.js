@@ -1,9 +1,7 @@
 import React from 'react';
 import Icons from '../Icons/Icons';
-import {connect} from 'react-redux';
-import * as actionTypes from '../../../store/actionTypes'
 
-const SortBy = ({onSortBy}) => {
+const SortBy = ({setModifier}) => {
     const icons = [
         {
             message: 'Best project first',
@@ -33,20 +31,10 @@ const SortBy = ({onSortBy}) => {
                 icons={icons}
                 title={'Sort By'}
                 nonActiveType={'sortBy'}
-                handleClick={onSortBy}
+                handleClick={setModifier}
             />
         </>
     );
 }
 
-const mapDispatchToProps = dispatch =>{
-    return {
-        onSortBy: (item)=> dispatch({
-            type: actionTypes.SET_SORTBY,
-            item
-        })
-    };
-}
-
-
-export default connect(null, mapDispatchToProps)(SortBy);
+export default SortBy;

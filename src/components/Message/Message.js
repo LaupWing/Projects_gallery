@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './Message.module.css';
 
-const Message = ({message}) => {
+const Message = ({iconObj}) => {
+    console.log(iconObj)
     return (
         <div className={styles.Message}>
-            <p>{message}</p>
+            {/* <p>{iconObj.message}</p> */}
         </div>
     );
 }
