@@ -5,6 +5,7 @@ import Project from './Project/Project';
 import styles from './Projects.module.css';
 
 const Projects = ({projects})=>{
+    
     return(
         <>
             <SearchBar/>
@@ -17,7 +18,8 @@ const Projects = ({projects})=>{
 
 const mapStateToProps = (state)=>{
     return{
-        projects: state.projects
+        projects: state.projects,
+        filters: state.filters
     }
 }
 
