@@ -12,13 +12,13 @@ const Project = ({project}) => {
     const Link = icons_loader['link'];
 
     return (
-        <div 
-            className={styles.Project} 
-            onMouseOver={()=>setShowMore(true)}
-            onMouseOut={()=>setShowMore(false)}
-        >
+        <div className={styles.Project}>
             <h2>{project.title}</h2>
-            <div className={styles.imageContainer}>
+            <div 
+                className={styles.imageContainer}
+                onMouseOver={()=>setShowMore(true)}
+                onMouseOut={()=>setShowMore(false)}
+            >
                 <img alt={image} src={image}/>
                 <div className={[styles.info, showMore ? '' : styles.hidden].join(' ')}>
                     <div className={styles.field}>
