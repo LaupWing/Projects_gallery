@@ -7,11 +7,13 @@ const Status = ({onToggleFilter}) => {
     const icons = [
         {
             message: 'Finished projects',
-            icon:'finished'
+            icon:'finished',
+            section: 'Status'
         }, 
         {
             message: 'Unfinished projects',
-            icon:'unfinished'
+            icon:'unfinished',
+            section: 'Status'
         },
     ];
     const style = {

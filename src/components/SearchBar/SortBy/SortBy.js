@@ -7,15 +7,18 @@ const SortBy = ({onSortBy}) => {
     const icons = [
         {
             message: 'Best project first',
-            icon:'favorite'
+            icon:'favorite',
+            section: 'Sort By'
         },
         {
             message: 'Newest first',
-            icon:'down'
+            icon:'down',
+            section: 'Sort By'
         }, 
         {
             message: 'Oldest first',
-            icon:'up'
+            icon:'up',
+            section: 'Sort By'
         },
     ];
     const style = {

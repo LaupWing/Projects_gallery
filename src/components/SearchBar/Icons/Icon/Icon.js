@@ -21,7 +21,7 @@ const Icon = ({iconObj, nonActiveType, handleClick, filters, sortBy})=>{
 
     return (
         <div 
-            onClick={()=>handleClick(icon)} 
+            onClick={()=>handleClick(iconObj)} 
             className={[styles.Icon, activeOut ? styles.nonActive: ''].join(' ')}
             onMouseOver={()=>setShowTooltip(true)}
             onMouseOut={()=>setShowTooltip(false)}

@@ -7,31 +7,38 @@ const MoreFilters = ({onToggleFilter}) => {
     const icons = [
         {
             message: 'Django projects',
-            icon:'django'
+            icon:'django',
+            section: 'Filters'
         }, 
         {
             message: 'Laravel projects',
-            icon:'laravel'
+            icon:'laravel',
+            section: 'Filters'
         },
         {
             message: 'Electron projects',
-            icon:'electron'
+            icon:'electron',
+            section: 'Filters'
         },
         {
             message: 'Firebase database projects',
-            icon:'firebase'
+            icon:'firebase',
+            section: 'Filters'
         },
         {
             message: 'Mongodb database projects',
-            icon:'mongodb'
+            icon:'mongodb',
+            section: 'Filters'
         },
         {
             message: 'Node projects',
-            icon:'node'
+            icon:'node',
+            section: 'Filters'
         },
         {
             message: 'Vanille Javascript projects',
-            icon:'javascript'
+            icon:'javascript',
+            section: 'Filters'
         },
         {
             message: 'Php projects',
@@ -39,19 +46,23 @@ const MoreFilters = ({onToggleFilter}) => {
         },
         {
             message: 'Python projects',
-            icon:'python'
+            icon:'python',
+            section: 'Filters'
         },
         {
             message: 'React projects',
-            icon:'react'
+            icon:'react',
+            section: 'Filters'
         },
         {
             message: 'Vue projects',
-            icon:'vue'
+            icon:'vue',
+            section: 'Filters'
         },
         {
             message: 'CSS focused projects',
-            icon:'css'
+            icon:'css',
+            section: 'Filters'
         }
     ];
     const style = {

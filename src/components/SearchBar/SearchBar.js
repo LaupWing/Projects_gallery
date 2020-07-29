@@ -5,15 +5,22 @@ import Status from './Status/Status';
 import SortBy from './SortBy/SortBy';
 import MoreFilters from './MoreFilters/MoreFilters';
 import AnimateHeight from 'react-animate-height';
+import {connect} from 'react-redux';
+import * as actionTypes from '../../store/actionTypes';
 
-const SearchBar = ({setMessage})=>{
+const SearchBar = ({setMessage, onToggleFilter})=>{
     const [showMore, setShowMore] = useState(false)
+
+    const setFilter = (iconObj)=>{
+        setMessage(iconObj)
+        onToggleFilter(iconObj.icon)
+    }
     return(
         <div className={styles.SearchBar}>
             <input type="text" placeholder="Search for a project..."/>
-            <MadeBy setMessage={setMessage}/>
-            <Status setMessage={setMessage}/>
-            <SortBy setMessage={setMessage}/>
+            <MadeBy setFilter={setFilter}/>
+            <Status setFilter={setFilter}/>
+            <SortBy setFilter={setFilter}/>
             <AnimateHeight
                 duration={ 500 }
                 height={ showMore ? 'auto' : 0}
@@ -21,11 +28,20 @@ const SearchBar = ({setMessage})=>{
                         'width': '100%'
                 }}
             >
-                <MoreFilters setMessage={setMessage}/>
+                <MoreFilters setFilter={setFilter}/>
             </AnimateHeight>
             <button onClick={()=>setShowMore(!showMore)}>{showMore ? 'Hide Filters':'Show more'}</button>
         </div>
     );
 }
 
-export default SearchBar;
+const mapDispatchToProps = dispatch =>{
+    return {
+        onToggleFilter: (item)=> dispatch({
+            type: actionTypes.TOGGLE_FILTER,
+            item
+        })
+    };
+}
+
+export default connect(null, mapDispatchToProps)(SearchBar);
