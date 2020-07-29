@@ -4,34 +4,39 @@
         "image": "hayden.PNG",
         "madeBy": "self",
         "status": "finished",
-        "stack": ["css"]
+        "stack": ["css"],
+        "createdAt": "28 July 2020"
     },
     {
         "title": "test",
         "image": "hayden.PNG",
         "madeBy": "self",
         "status": "finished",
-        "stack": ["css", "php"]
+        "stack": ["css", "php"],
+        "createdAt": "28 July 2020"
     },
     {
         "title": "test",
         "image": "hayden.PNG",
         "madeBy": "tutorial",
         "status": "finished",
-        "stack": ["css", "react"]
+        "stack": ["css", "react"],
+        "createdAt": "28 July 2020"
     },
     {
         "title": "test",
         "image": "hayden.PNG",
         "madeBy": "self",
         "status": "unfinished",
-        "stack": ["css", "vue"]
+        "stack": ["css", "vue"],
+        "createdAt": "28 July 2020"
     },
     {
         "title": "test",
         "image": "hayden.PNG",
         "madeBy": "tutorial",
         "status": "unfinished",
-        "stack": ["css", "django", "php"]
+        "stack": ["css", "django", "php"],
+        "createdAt": "28 July 2020"
     }
 ]
