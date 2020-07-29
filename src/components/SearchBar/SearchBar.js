@@ -12,7 +12,6 @@ const SearchBar = ({setMessage, onToggleFilter, onSortBy})=>{
     const [showMore, setShowMore] = useState(false);
 
     const setModifier = (iconObj)=>{
-        console.log(iconObj)
         setMessage(iconObj);
         if(iconObj.section === 'Sort By'){
             onSortBy(iconObj.icon);

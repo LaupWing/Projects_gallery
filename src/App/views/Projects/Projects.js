@@ -19,10 +19,11 @@ const Projects = ({projects, filters, sortBy})=>{
                 return a.rank < b.rank ? -1 : b.rank < a.rank ? 1 : 0 
             }else if(sortBy === 'up'){
                 return timestampA < timestampB ? -1 : timestampB < timestampA ? 1 : 0
-            }else if(sortBy === 'down'){
+            }else{
                 return timestampA > timestampB ? -1 : timestampB > timestampA ? 1 : 0
             }
         })
+    
     return(
         <>
             {message && <Message message={message}/>}

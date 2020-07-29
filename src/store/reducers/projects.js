@@ -1,11 +1,11 @@
 import * as actionTypes from '../actionTypes';
 import projects from './projects.json';
-import moment from 'moment';
+// import moment from 'moment';
 
 projects.forEach(p=>{
-    console.log(p.createdAt)
-    console.log(moment(p.createdAt, "D MMMM YYYY").format('X'))
-    console.log(moment(p.createdAt, "D MMMM YYYY").fromNow())
+    // console.log(p.createdAt)
+    // console.log(moment(p.createdAt, "D MMMM YYYY").format('X'))
+    // console.log(moment(p.createdAt, "D MMMM YYYY").fromNow())
 })
 const initialState = {
     projects,
