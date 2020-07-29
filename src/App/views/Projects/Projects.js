@@ -5,12 +5,17 @@ import Project from './Project/Project';
 import styles from './Projects.module.css';
 import Message from '../../../components/Message/Message';
 
-const Projects = ({projects, filters})=>{
+const Projects = ({projects, filters, sortBy})=>{
     const [message, setMessage] = useState(false);
 
     const filtered = projects
         .filter(x=>!x.stack.find(y=>filters.includes(y)))
         .filter(x=>!filters.includes(x.status)&&!filters.includes(x.madeBy))
+        .sort((a,b)=>{
+            if(sortBy === 'favorite'){
+                return a.rank < b.rank ? -1 : b.rank < a.rank ? 1 : 0 
+            }
+        })
     return(
         <>
             {message && <Message message={message}/>}
@@ -25,7 +30,8 @@ const Projects = ({projects, filters})=>{
 const mapStateToProps = (state)=>{
     return{
         projects: state.projects,
-        filters: state.filters
+        filters: state.filters,
+        sortBy: state.sortBy,
     }
 }
 

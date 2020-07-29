@@ -1,42 +1,47 @@
 [
     {
-        "title": "test",
+        "title": "test 1",
         "image": "hayden.PNG",
         "madeBy": "self",
         "status": "finished",
         "stack": ["css"],
-        "createdAt": "24 July 2020"
+        "createdAt": "24 July 2020",
+        "rank": 1
     },
     {
-        "title": "test",
+        "title": "test 2",
         "image": "hayden.PNG",
         "madeBy": "self",
         "status": "finished",
         "stack": ["css", "php"],
-        "createdAt": "25 July 2020"
+        "createdAt": "25 July 2020",
+        "rank": 2
     },
     {
-        "title": "test",
+        "title": "test 3",
         "image": "hayden.PNG",
         "madeBy": "tutorial",
         "status": "finished",
         "stack": ["css", "react"],
-        "createdAt": "26 July 2020"
+        "createdAt": "26 July 2020",
+        "rank": 3
     },
     {
-        "title": "test",
+        "title": "test 4",
         "image": "hayden.PNG",
         "madeBy": "self",
         "status": "unfinished",
         "stack": ["css", "vue"],
-        "createdAt": "27 July 2020"
+        "createdAt": "27 July 2020",
+        "rank": 4
     },
     {
-        "title": "test",
+        "title": "test 5",
         "image": "hayden.PNG",
         "madeBy": "tutorial",
         "status": "unfinished",
         "stack": ["css", "django", "php"],
-        "createdAt": "28 July 2020"
+        "createdAt": "28 July 2020",
+        "rank": 5
     }
 ]
