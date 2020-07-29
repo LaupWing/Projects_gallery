@@ -10,6 +10,7 @@ const Projects = ({projects, filters})=>{
 
     const filtered = projects
         .filter(x=>!x.stack.find(y=>filters.includes(y)))
+        .filter(x=>!filters.includes(x.status)&&!filters.includes(x.madeBy))
     return(
         <>
             {message && <Message message={message}/>}
