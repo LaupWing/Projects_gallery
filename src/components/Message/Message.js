@@ -5,7 +5,7 @@ const Message = ({message}) => {
     console.log(message)
     return (
         <div className={styles.Message}>
-            {/* <p>{iconObj.message}</p> */}
+            <p>{message.section}: {message.message}</p>
         </div>
     );
 }
