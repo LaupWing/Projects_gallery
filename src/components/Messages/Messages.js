@@ -6,7 +6,6 @@ const Messages = ({messages, removeMessages}) => {
     const container = useRef(null)
     return (
         <div ref={container} className={styles.Messages}>
-            {console.log('rendering messages')}
             {messages.map((x,i)=>
                 <Message 
                     container={container} 

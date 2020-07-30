@@ -5,9 +5,11 @@ import Project from './Project/Project';
 import styles from './Projects.module.css';
 import Messages from '../../../components/Messages/Messages';
 import moment from 'moment';
+import Detail from '../../../components/Detail/Detail';
 
 const Projects = ({projects, filters, sortBy})=>{
     const [messages, setMessages] = useState([]);
+    const [detail, setDetail] = useState(false);
 
     const filtered = projects
         .filter(x=>!x.stack.find(y=>filters.includes(y)))
@@ -33,7 +35,7 @@ const Projects = ({projects, filters, sortBy})=>{
                 messages={messages} 
                 removeMessages={()=>setMessages([])}
             />}
-            {console.log('rendering projects')}
+            {detail && <Detail detail={detail}/>}
             <SearchBar setMessage={addMessage}/>
             <div className={styles.Projects}>
                 {filtered.map((project,i)=><Project project={project} key={i}/>)}

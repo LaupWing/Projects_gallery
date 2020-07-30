@@ -29,8 +29,8 @@ const Message = ({message, container, removeMessages}) => {
                 styles.Message, 
                 finished ? styles.finished : '']
                 .join(' ')
-            }>
-            {console.log('rendering message')}
+            }
+        >
             <p>{message.section}: {message.message} <span>X</span></p>
         </div>
     );

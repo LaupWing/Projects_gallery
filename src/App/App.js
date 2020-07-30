@@ -8,7 +8,6 @@ import Home from './views/Home/Home'
 function App() {
     return (
         <div className={styles.App}>
-            {console.log('rendering app')}
             <Nav/>
             <main>
                 <Switch>
