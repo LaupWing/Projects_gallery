@@ -4,7 +4,7 @@ import icons_loader from '../../../../components/Icons/icons_loader';
 import Eye from '../../../../components/Icons/Eye/Eye';
 import Github from '../../../../components/Icons/Github/Github';
 
-const Project = ({project}) => {
+const Project = ({project, setDetail}) => {
     const image = require(`../../../../assets/projects_images/${project.image}`);
     const MadeBy = icons_loader[project.madeBy];
     const Status = icons_loader[project.status];
@@ -46,7 +46,12 @@ const Project = ({project}) => {
                     return <Icon key={i}/>
                 })}
             </div>
-            <h3 className={styles.seeMore}>Click here to see more <Link/></h3>
+            <h3 
+                onClick={()=>setDetail(project)} 
+                className={styles.seeMore}
+            >
+                Click here to see more <Link/>
+            </h3>
         </div>
     );
 }

@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import styles from './Detail.module.css';
 
-const Detail = () => {
+const Detail = ({detail}) => {
     return (
-        <div>
+        <div className={styles.Detail}>
             
         </div>
-    )
+    );
 }
 
 export default Detail;
