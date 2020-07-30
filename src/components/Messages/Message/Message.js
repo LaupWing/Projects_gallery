@@ -3,6 +3,7 @@ import styles from './Message.module.css';
 
 const Message = ({message, container, removeMessages}) => {
     const [finished, setFinished] = useState(false)
+    console.log('rerender')
     useEffect(() => {
         setTimeout(()=>{
             if(finished){

@@ -27,7 +27,6 @@ const Projects = ({projects, filters, sortBy})=>{
         const addedMessage = [...messages, iconObj]
         setMessages(addedMessage)
     }
-    
     return(
         <>
             {messages.length>0 && <Messages 
