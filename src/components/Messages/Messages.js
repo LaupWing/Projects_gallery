@@ -4,10 +4,9 @@ import styles from './Messages.module.css'
 
 const Messages = ({messages, removeMessages}) => {
     const container = useRef(null)
-    console.log('render')
-    console.log(messages)
     return (
         <div ref={container} className={styles.Messages}>
+            {console.log('rendering messages')}
             {messages.map((x,i)=>
                 <Message 
                     container={container} 

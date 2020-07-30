@@ -6,9 +6,9 @@ import Projects from './views/Projects/Projects'
 import Home from './views/Home/Home'
 
 function App() {
-    console.log('rendering app')
     return (
         <div className={styles.App}>
+            {console.log('rendering app')}
             <Nav/>
             <main>
                 <Switch>

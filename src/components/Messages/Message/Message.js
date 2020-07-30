@@ -3,7 +3,6 @@ import styles from './Message.module.css';
 
 const Message = ({message, container, removeMessages}) => {
     const [finished, setFinished] = useState(false)
-    console.log('rerender')
     useEffect(() => {
         setTimeout(()=>{
             if(finished){
@@ -31,9 +30,10 @@ const Message = ({message, container, removeMessages}) => {
                 finished ? styles.finished : '']
                 .join(' ')
             }>
+            {console.log('rendering message')}
             <p>{message.section}: {message.message} <span>X</span></p>
         </div>
     );
 }
 
-export default Message;
+export default React.memo(Message);

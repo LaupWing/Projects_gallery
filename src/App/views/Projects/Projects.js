@@ -33,6 +33,7 @@ const Projects = ({projects, filters, sortBy})=>{
                 messages={messages} 
                 removeMessages={()=>setMessages([])}
             />}
+            {console.log('rendering projects')}
             <SearchBar setMessage={addMessage}/>
             <div className={styles.Projects}>
                 {filtered.map((project,i)=><Project project={project} key={i}/>)}
