@@ -1,12 +1,19 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import Message from './Message/Message'
 import styles from './Messages.module.css'
 
-const Messages = ({messages, removeMessage}) => {
-    
+const Messages = ({messages, removeMessages}) => {
+    const container = useRef(null)
     return (
-        <div className={styles.Messages}>
-            {messages.map(x=><Message removeMessage={removeMessage} message={x}/>)}
+        <div ref={container} className={styles.Messages}>
+            {messages.map((x,i)=>
+                <Message 
+                    container={container} 
+                    removeMessages={removeMessages} 
+                    message={x}
+                    key={i}
+                />
+            )}
         </div>
     )
 }

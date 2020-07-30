@@ -4,7 +4,9 @@
     color: var(--main-color);
     border-radius: 5px;
     margin-bottom: 5px;
-    animation: slideIn forwards 1s;
+    animation: slideIn forwards .5s;
+    overflow: hidden;
+    transition: all 1s;
 }
 .Message span{
     font-weight: bold;
@@ -15,6 +17,12 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+.finished{
+    max-height: 0;
+    opacity: 0;
+    padding: 0;
 }
 
 @keyframes slideIn{

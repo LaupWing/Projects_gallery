@@ -27,17 +27,13 @@ const Projects = ({projects, filters, sortBy})=>{
         const addedMessage = [...messages, iconObj]
         setMessages(addedMessage)
     }
-    const removeMessage = (iconObj)=>{
-        console.log(messages)
-        const removedMessage = [...messages].filter(x=>x!== iconObj)
-        console.log(iconObj)
-        console.log(removedMessage)
-        setMessages(removedMessage)
-    }
     
     return(
         <>
-            {messages.length>0 && <Messages messages={messages} removeMessage={removeMessage}/>}
+            {messages.length>0 && <Messages 
+                messages={messages} 
+                removeMessages={()=>setMessages([])}
+            />}
             <SearchBar setMessage={addMessage}/>
             <div className={styles.Projects}>
                 {filtered.map((project,i)=><Project project={project} key={i}/>)}
