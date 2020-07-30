@@ -36,4 +36,4 @@ const Message = ({message, container, removeMessages}) => {
     );
 }
 
-export default React.memo(Message);
+export default Message;
