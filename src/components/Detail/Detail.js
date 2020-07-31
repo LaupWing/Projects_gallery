@@ -75,6 +75,24 @@ const Detail = ({detail}) => {
                 >
                     Click here to see the live link <Link/>
                 </div>
+                <div 
+                    className={styles.field}
+                    style={{
+                        alignItems: 'flex-start',
+                        padding: '20px',
+                        flexDirection: 'column',
+                        justifyContent: 'center'
+                    }}
+                >
+                    <h2 style={{
+                        width: '100%'
+                    }}>Summary</h2>
+                    <p style={{
+                        textAlign: 'left',
+                        fontSize: '.8rem',
+                        marginTop: '5px'
+                    }}>{detail.summary}</p>
+                </div>
             </div>
         </div>
     );
