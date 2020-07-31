@@ -38,3 +38,6 @@
     margin-top: 3px;
     padding: 5px;
 }
+.field svg > *{
+    fill: var(--accent-color);
+}

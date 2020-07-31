@@ -4,9 +4,10 @@ import icon_loader from '../../components/Icons/icons_loader';
 import moment from 'moment';
 
 const Detail = ({detail}) => {
-    console.log(detail)
     const MadeBy = icon_loader[detail.madeBy];
     const Status = icon_loader[detail.status];
+    const Github = icon_loader.github;
+    const Link = icon_loader.link;
     return (
         <div className={styles.Detail}>
             <iframe src={detail.url} title="W3Schools Free Online Web Tutorials"></iframe>
@@ -45,6 +46,48 @@ const Detail = ({detail}) => {
                         <h2>Made By</h2>
                         <p><MadeBy/></p>
                     </div>
+                </div>
+                <div 
+                    className={styles.field}
+                    style={{
+                        alignItems: 'center',
+                        padding: '10px 20px',
+                        flexDirection: 'column',
+                        paddingBottom: '0px',
+                        justifyContent: 'center'
+                    }}
+                >
+                    <h2 style={{
+                        width: '100%'
+                    }}>Stack</h2>
+                    <p>{detail.stack.map(x=>{
+                        const Cmp = icon_loader[x];
+                        return <Cmp/>;
+                    })}</p>
+                </div>
+                <div 
+                    className={styles.field}
+                    style={{
+                        alignItems: 'center',
+                        padding: '5px',
+                        color: 'var(--accent-color)',
+                        fontSize: '.9rem',
+                        justifyContent: 'space-between'
+                    }}
+                >
+                    Click here to see the github repo <Github/>
+                </div>
+                <div 
+                    className={styles.field}
+                    style={{
+                        alignItems: 'center',
+                        padding: '5px',
+                        color: 'var(--accent-color)',
+                        fontSize: '.9rem',
+                        justifyContent: 'space-between'
+                    }}
+                >
+                    Click here to see the live link <Link/>
                 </div>
             </div>
         </div>
