@@ -20,6 +20,7 @@
     border-left: var(--highlight-color) 1px solid;
     align-items: center;
 }
+
 .field{
     width: 100%;
     display: flex;
@@ -42,7 +43,25 @@
 .field.link svg > *{
     fill: var(--accent-color);
 }
-
+.field.goBack h2{
+    text-align: center;
+    width: 100%;
+    color:var(--pinkish);
+    font-size: .8rem;
+    transition: .25s;
+}
+.field.goBack{
+    padding: 10px;
+    border: solid 1px var(--pinkish);
+    transition: .25s;
+    cursor: pointer;
+}
+.field.goBack:hover{
+    background-color: var(--pinkish);
+}
+.field.goBack:hover h2{
+    color: var(--main-color);
+}
 .field.link{
     padding: 5px;
     color: var(--accent-color);

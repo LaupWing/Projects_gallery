@@ -13,6 +13,11 @@ const Detail = ({detail}) => {
             <iframe src={detail.url} title="W3Schools Free Online Web Tutorials"></iframe>
             <div className={styles.meta}>
                 <div 
+                    className={`${styles.field} ${styles.goBack}`}
+                >
+                    <h2>Go back to projects</h2>
+                </div>
+                <div 
                     className={styles.field}
                 >
                     <h2>Name</h2>
