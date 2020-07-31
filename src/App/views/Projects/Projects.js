@@ -35,7 +35,7 @@ const Projects = ({projects, filters, sortBy})=>{
                 messages={messages} 
                 removeMessages={()=>setMessages([])}
             />}
-            {detail && <Detail detail={detail}/>}
+            {detail && <Detail detail={detail} setDetail={setDetail}/>}
             <SearchBar setMessage={addMessage}/>
             <div className={styles.Projects}>
                 {filtered.map((project,i)=><Project 

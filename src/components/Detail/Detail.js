@@ -3,17 +3,19 @@ import styles from './Detail.module.css';
 import icon_loader from '../../components/Icons/icons_loader';
 import moment from 'moment';
 
-const Detail = ({detail}) => {
+const Detail = ({detail, setDetail}) => {
     const MadeBy = icon_loader[detail.madeBy];
     const Status = icon_loader[detail.status];
     const Github = icon_loader.github;
     const Link = icon_loader.link;
+
     return (
         <div className={styles.Detail}>
             <iframe src={detail.url} title="W3Schools Free Online Web Tutorials"></iframe>
             <div className={styles.meta}>
                 <div 
                     className={`${styles.field} ${styles.goBack}`}
+                    onClick={()=>setDetail(false)}
                 >
                     <h2>Go back to projects</h2>
                 </div>
