@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Detail.module.css';
 import icon_loader from '../../components/Icons/icons_loader';
+import moment from 'moment';
 
 const Detail = ({detail}) => {
     console.log(detail)
@@ -22,7 +23,18 @@ const Detail = ({detail}) => {
                 <div 
                     className={styles.field}
                     style={{
-                        alignItems: 'flex-start'
+                        paddingBottom: '15px'
+                    }}
+                >
+                    <h2>Created At</h2>
+                    <p>{moment(detail.createdAt, "D MMMM YYYY").fromNow()}</p>
+                </div>
+                <div 
+                    className={styles.field}
+                    style={{
+                        alignItems: 'flex-start',
+                        padding: '10px 20px',
+                        paddingBottom: '0px'
                     }}
                 >
                     <div className={styles.sub_field}>
