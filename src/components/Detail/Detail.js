@@ -13,18 +13,18 @@ const Detail = ({detail}) => {
             <div className={styles.meta}>
                 <div 
                     className={styles.field}
-                    style={{
-                        paddingBottom: '15px'
-                    }}
                 >
                     <h2>Name</h2>
                     <p>{detail.title}</p>
                 </div>
                 <div 
                     className={styles.field}
-                    style={{
-                        paddingBottom: '15px'
-                    }}
+                >
+                    <h2>Rank</h2>
+                    <p>{detail.rank}</p>
+                </div>
+                <div 
+                    className={styles.field}
                 >
                     <h2>Created At</h2>
                     <p>{moment(detail.createdAt, "D MMMM YYYY").fromNow()}</p>
