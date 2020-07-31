@@ -10,17 +10,29 @@ const Detail = ({detail}) => {
         <div className={styles.Detail}>
             <iframe src={detail.url} title="W3Schools Free Online Web Tutorials"></iframe>
             <div className={styles.meta}>
-                <div className={styles.field}>
+                <div 
+                    className={styles.field}
+                    style={{
+                        paddingBottom: '15px'
+                    }}
+                >
                     <h2>Name</h2>
                     <p>{detail.title}</p>
                 </div>
-                <div className={styles.field}>
-                    <h2>Status</h2>
-                    <p><Status/></p>
-                </div>
-                <div className={styles.field}>
-                    <h2>Made By</h2>
-                    <p><MadeBy/></p>
+                <div 
+                    className={styles.field}
+                    style={{
+                        alignItems: 'flex-start'
+                    }}
+                >
+                    <div className={styles.sub_field}>
+                        <h2>Status</h2>
+                        <p><Status/></p>
+                    </div>
+                    <div className={styles.sub_field}>
+                        <h2>Made By</h2>
+                        <p><MadeBy/></p>
+                    </div>
                 </div>
             </div>
         </div>
