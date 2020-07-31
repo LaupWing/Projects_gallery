@@ -66,26 +66,12 @@ const Detail = ({detail}) => {
                     })}</p>
                 </div>
                 <div 
-                    className={styles.field}
-                    style={{
-                        alignItems: 'center',
-                        padding: '5px',
-                        color: 'var(--accent-color)',
-                        fontSize: '.9rem',
-                        justifyContent: 'space-between'
-                    }}
+                    className={`${styles.field} ${styles.link}`}
                 >
                     Click here to see the github repo <Github/>
                 </div>
                 <div 
-                    className={styles.field}
-                    style={{
-                        alignItems: 'center',
-                        padding: '5px',
-                        color: 'var(--accent-color)',
-                        fontSize: '.9rem',
-                        justifyContent: 'space-between'
-                    }}
+                    className={`${styles.field} ${styles.link}`}
                 >
                     Click here to see the live link <Link/>
                 </div>

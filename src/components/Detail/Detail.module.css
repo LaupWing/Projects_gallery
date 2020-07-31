@@ -38,6 +38,23 @@
     margin-top: 3px;
     padding: 5px;
 }
-.field svg > *{
+.field.link svg > *{
     fill: var(--accent-color);
+}
+
+.field.link{
+    align-items: center;
+    padding: 5px;
+    color: var(--accent-color);
+    font-size: .9rem;
+    justify-content: space-between;
+    transition: .25s;
+    cursor: pointer;
+}
+.field.link:hover{
+    background: var(--accent-color);
+    color: var(--main-color);
+}
+.field.link:hover svg>*{
+    fill: var(--main-color);
 }
