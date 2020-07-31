@@ -7,7 +7,8 @@
         "stack": ["css"],
         "createdAt": "24 July 2020",
         "rank": 1,
-        "url": "https://naughty-wescoff-3881e8.netlify.app/"
+        "url": "https://naughty-wescoff-3881e8.netlify.app/",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper metus in nisl fermentum, vitae rhoncus elit feugiat. Quisque tempor, mi quis porta tempus, lectus nisi feugiat massa, quis congue risus lectus id arcu. In hac habitasse platea dictumst. Donec a nunc pretium mi sagittis facilisis. Quisque in purus sed nisi pretium bibendum. Donec dignissim porttitor magna, ac vulputate sem blandit sed. Nullam condimentum porttitor nibh ac porttitor. Nam et fermentum massa. Aenean ut leo laoreet, tempor mi id, blandit tellus."
     },
     {
         "title": "test 2",
@@ -17,7 +18,8 @@
         "stack": ["css", "php"],
         "createdAt": "25 July 2020",
         "rank": 2,
-        "url": "https://naughty-wescoff-3881e8.netlify.app/"
+        "url": "https://naughty-wescoff-3881e8.netlify.app/",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper metus in nisl fermentum, vitae rhoncus elit feugiat. Quisque tempor, mi quis porta tempus, lectus nisi feugiat massa, quis congue risus lectus id arcu. In hac habitasse platea dictumst. Donec a nunc pretium mi sagittis facilisis. Quisque in purus sed nisi pretium bibendum. Donec dignissim porttitor magna, ac vulputate sem blandit sed. Nullam condimentum porttitor nibh ac porttitor. Nam et fermentum massa. Aenean ut leo laoreet, tempor mi id, blandit tellus."
     },
     {
         "title": "test 3",
@@ -27,7 +29,8 @@
         "stack": ["css", "react"],
         "createdAt": "26 July 2020",
         "rank": 3,
-        "url": "https://naughty-wescoff-3881e8.netlify.app/"
+        "url": "https://naughty-wescoff-3881e8.netlify.app/",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper metus in nisl fermentum, vitae rhoncus elit feugiat. Quisque tempor, mi quis porta tempus, lectus nisi feugiat massa, quis congue risus lectus id arcu. In hac habitasse platea dictumst. Donec a nunc pretium mi sagittis facilisis. Quisque in purus sed nisi pretium bibendum. Donec dignissim porttitor magna, ac vulputate sem blandit sed. Nullam condimentum porttitor nibh ac porttitor. Nam et fermentum massa. Aenean ut leo laoreet, tempor mi id, blandit tellus."
     },
     {
         "title": "test 4",
@@ -37,7 +40,8 @@
         "stack": ["css", "vue"],
         "createdAt": "27 July 2020",
         "rank": 4,
-        "url": "https://naughty-wescoff-3881e8.netlify.app/"
+        "url": "https://naughty-wescoff-3881e8.netlify.app/",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper metus in nisl fermentum, vitae rhoncus elit feugiat. Quisque tempor, mi quis porta tempus, lectus nisi feugiat massa, quis congue risus lectus id arcu. In hac habitasse platea dictumst. Donec a nunc pretium mi sagittis facilisis. Quisque in purus sed nisi pretium bibendum. Donec dignissim porttitor magna, ac vulputate sem blandit sed. Nullam condimentum porttitor nibh ac porttitor. Nam et fermentum massa. Aenean ut leo laoreet, tempor mi id, blandit tellus."
     },
     {
         "title": "test 5",
@@ -47,6 +51,7 @@
         "stack": ["css", "django", "php"],
         "createdAt": "28 July 2020",
         "rank": 5,
-        "url": "https://naughty-wescoff-3881e8.netlify.app/"
+        "url": "https://naughty-wescoff-3881e8.netlify.app/",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper metus in nisl fermentum, vitae rhoncus elit feugiat. Quisque tempor, mi quis porta tempus, lectus nisi feugiat massa, quis congue risus lectus id arcu. In hac habitasse platea dictumst. Donec a nunc pretium mi sagittis facilisis. Quisque in purus sed nisi pretium bibendum. Donec dignissim porttitor magna, ac vulputate sem blandit sed. Nullam condimentum porttitor nibh ac porttitor. Nam et fermentum massa. Aenean ut leo laoreet, tempor mi id, blandit tellus."
     }
 ]
