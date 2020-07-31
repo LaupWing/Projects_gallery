@@ -17,6 +17,7 @@
     background: var(--main-color);
     display: flex;
     flex-direction: column;
+    border-left: var(--highlight-color) 1px solid;
     align-items: center;
 }
 .field{
@@ -43,13 +44,17 @@
 }
 
 .field.link{
-    align-items: center;
     padding: 5px;
     color: var(--accent-color);
     font-size: .9rem;
-    justify-content: space-between;
     transition: .25s;
     cursor: pointer;
+}
+.field.link a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 .field.link:hover{
     background: var(--accent-color);

@@ -68,12 +68,16 @@ const Detail = ({detail}) => {
                 <div 
                     className={`${styles.field} ${styles.link}`}
                 >
-                    Click here to see the github repo <Github/>
+                    <a href={detail.githubUrl} target="_blank" rel="noopener noreferrer">
+                        Click here to see the github repo <Github/>
+                    </a>
                 </div>
                 <div 
                     className={`${styles.field} ${styles.link}`}
                 >
-                    Click here to see the live link <Link/>
+                    <a href={detail.url} target="_blank" rel="noopener noreferrer">
+                        Click here to see the live link <Link/>
+                    </a>
                 </div>
                 <div 
                     className={styles.field}
