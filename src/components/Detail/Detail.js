@@ -11,7 +11,7 @@ const Detail = ({detail, setDetail}) => {
 
     return (
         <div className={styles.Detail}>
-            <iframe src={detail.url} title="W3Schools Free Online Web Tutorials"></iframe>
+            {detail.url !== '' ? <iframe src={detail.url} title="W3Schools Free Online Web Tutorials"></iframe> : <img alt={detail.image} src={detail.image}/>}
             <div className={styles.meta}>
                 <div 
                     className={`${styles.field} ${styles.goBack}`}
