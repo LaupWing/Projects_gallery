@@ -5,7 +5,7 @@ const Message = ({message, container, removeMessages}) => {
     const [finished, setFinished] = useState(false)
     useEffect(() => {
         setTimeout(()=>{
-            if(finished){
+            if(finished||!container.current){
                 return
             }
             setFinished(true)
