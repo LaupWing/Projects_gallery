@@ -69,6 +69,14 @@
     transition: .25s;
     cursor: pointer;
 }
+.field.link.disabled{
+    background: var(--highlight-color);
+    pointer-events: none;
+    color: var(--darkGrey);
+}
+.field.link.disabled svg path{
+    fill: var(--darkGrey);
+}
 .field.link a{
     display: flex;
     align-items: center;

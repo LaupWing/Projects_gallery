@@ -81,7 +81,7 @@ const Detail = ({detail, setDetail}) => {
                     </a>
                 </div>
                 <div 
-                    className={`${styles.field} ${styles.link}`}
+                    className={`${styles.field} ${styles.link} ${detail.url ? '' : styles.disabled}`}
                 >
                     <a href={detail.url} target="_blank" rel="noopener noreferrer">
                         Click here to see the live link <Link/>
