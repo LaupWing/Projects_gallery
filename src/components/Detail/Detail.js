@@ -68,9 +68,9 @@ const Detail = ({detail, setDetail}) => {
                     <h2 style={{
                         width: '100%'
                     }}>Stack</h2>
-                    <p>{detail.stack.map(x=>{
+                    <p>{detail.stack.map((x,i)=>{
                         const Cmp = icon_loader[x];
-                        return <Cmp/>;
+                        return <Cmp key={i}/>;
                     })}</p>
                 </div>
                 <div 
