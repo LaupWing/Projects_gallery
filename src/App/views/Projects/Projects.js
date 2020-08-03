@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import SearchBar from '../../../components/SearchBar/SearchBar';
 import {connect} from 'react-redux';
 import Project from './Project/Project';
@@ -30,6 +30,14 @@ const Projects = ({projects, filters, sortBy, searchTerm})=>{
         const addedMessage = [...messages, iconObj];
         setMessages(addedMessage);
     }
+
+    useEffect(()=>{
+        if(detail){
+            document.body.style.overflow = 'hidden';
+        }else{
+            document.body.removeAttribute('style');
+        }
+    },[detail])
     return(
         <>
             {messages.length>0 && <Messages 

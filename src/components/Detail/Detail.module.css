@@ -19,6 +19,7 @@
     flex-direction: column;
     border-left: var(--highlight-color) 1px solid;
     align-items: center;
+    overflow-y: auto;
 }
 
 .field{
