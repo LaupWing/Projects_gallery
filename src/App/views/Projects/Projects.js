@@ -27,8 +27,8 @@ const Projects = ({projects, filters, sortBy, searchTerm})=>{
             }
         })
     const addMessage = (iconObj)=>{
-        const addedMessage = [...messages, iconObj]
-        setMessages(addedMessage)
+        const addedMessage = [...messages, iconObj];
+        setMessages(addedMessage);
     }
     return(
         <>
