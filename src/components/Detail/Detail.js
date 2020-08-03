@@ -61,14 +61,15 @@ const Detail = ({detail, setDetail}) => {
                         alignItems: 'center',
                         padding: '10px 20px',
                         flexDirection: 'column',
-                        paddingBottom: '0px',
                         justifyContent: 'center'
                     }}
                 >
                     <h2 style={{
                         width: '100%'
                     }}>Stack</h2>
-                    <p>{detail.stack.map((x,i)=>{
+                    <p style={{
+                        display: 'flex'
+                    }}>{detail.stack.map((x,i)=>{
                         const Cmp = icon_loader[x];
                         return <Cmp key={i}/>;
                     })}</p>
