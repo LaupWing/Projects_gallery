@@ -40,7 +40,8 @@ const MoreFilters = ({setModifier}) => {
         },
         {
             message: 'Php projects',
-            icon:'php'
+            icon:'php',
+            section: 'Filters'
         },
         {
             message: 'Python projects',
