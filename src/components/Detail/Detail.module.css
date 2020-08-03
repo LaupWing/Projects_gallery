@@ -82,3 +82,14 @@
 .field.link:hover svg>*{
     fill: var(--main-color);
 }
+
+.imageContainer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.6);
+}
+.imageContainer img{
+    width: 85%;
+}
