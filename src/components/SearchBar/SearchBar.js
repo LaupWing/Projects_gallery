@@ -8,7 +8,7 @@ import AnimateHeight from 'react-animate-height';
 import {connect} from 'react-redux';
 import * as actionTypes from '../../store/actionTypes';
 
-const SearchBar = ({setMessage, onToggleFilter, onSortBy})=>{
+const SearchBar = ({setMessage, onToggleFilter, onSortBy, onSearch})=>{
     const [showMore, setShowMore] = useState(false);
 
     const setModifier = (iconObj)=>{
@@ -21,7 +21,11 @@ const SearchBar = ({setMessage, onToggleFilter, onSortBy})=>{
     }
     return(
         <div className={styles.SearchBar}>
-            <input type="text" placeholder="Search for a project..."/>
+            <input 
+                type="text" 
+                placeholder="Search for a project..."
+                onChange={(e)=> onSearch(e.target.value)}
+            />
             <MadeBy setModifier={setModifier}/>
             <Status setModifier={setModifier}/>
             <SortBy setModifier={setModifier}/>
@@ -48,8 +52,11 @@ const mapDispatchToProps = dispatch =>{
         onSortBy: (item)=> dispatch({
             type: actionTypes.SET_SORTBY,
             item
+        }),
+        onSearch: (search)=> dispatch({
+            type: actionTypes.SET_SEARCH,
+            search
         })
     };
 }
-
 export default connect(null, mapDispatchToProps)(SearchBar);

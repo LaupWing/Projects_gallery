@@ -7,13 +7,14 @@ import Messages from '../../../components/Messages/Messages';
 import moment from 'moment';
 import Detail from '../../../components/Detail/Detail';
 
-const Projects = ({projects, filters, sortBy})=>{
+const Projects = ({projects, filters, sortBy, searchTerm})=>{
     const [messages, setMessages] = useState([]);
     const [detail, setDetail] = useState(false);
 
     const filtered = projects
         .filter(x=>!x.stack.find(y=>filters.includes(y)))
         .filter(x=>!filters.includes(x.status)&&!filters.includes(x.madeBy))
+        .filter(x=>x.title.includes(searchTerm))
         .sort((a,b)=>{
             const timestampA = moment(a.createdAt, "D MMMM YYYY").format('X')
             const timestampB = moment(b.createdAt, "D MMMM YYYY").format('X')
@@ -53,6 +54,7 @@ const mapStateToProps = (state)=>{
         projects: state.projects,
         filters: state.filters,
         sortBy: state.sortBy,
+        searchTerm: state.searchTerm
     }
 }
 
