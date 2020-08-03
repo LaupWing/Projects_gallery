@@ -4,6 +4,7 @@ import projects from './projects.json';
 const initialState = {
     projects,
     filters:[],
+    searchTerm: '',
     sortBy: 'favorite'
 };
 
@@ -24,6 +25,7 @@ const reducer = (state=initialState, action)=>{
     switch(action.type){
         case actionTypes.TOGGLE_FILTER: return filterToggle(state, action);
         case actionTypes.SET_SORTBY: return {...state, sortBy:action.item};
+        case actionTypes.SET_SEARCH: return {...state, searchTerm: action.search};
         default: return state;
     }
 }
