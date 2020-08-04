@@ -14,7 +14,9 @@ const Projects = ({projects, filters, sortBy, searchTerm})=>{
     const filtered = projects
         .filter(x=>!x.stack.find(y=>filters.includes(y)))
         .filter(x=>!filters.includes(x.status)&&!filters.includes(x.madeBy))
-        .filter(x=>x.title.includes(searchTerm))
+        .filter(x=>{
+            return x.title.toLowerCase().includes(searchTerm.toLowerCase())
+        })
         .sort((a,b)=>{
             const timestampA = moment(a.createdAt, "D MMMM YYYY").format('X')
             const timestampB = moment(b.createdAt, "D MMMM YYYY").format('X')
