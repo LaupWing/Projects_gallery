@@ -39,8 +39,7 @@
     justify-content: center;
     border-top: solid 1px var(--highlight-color);
 }
-.Project h3,
-.Project a{
+.Project h3{
     width: 100%;
     color: var(--accent-color);
     font-weight: normal;
@@ -75,8 +74,6 @@
 .seeMore:hover{
     background: var(--accent-color);
 }
-
-.link:hover a,
 .link:hover h3,
 .seeMore:hover{
     color: var(--main-color);

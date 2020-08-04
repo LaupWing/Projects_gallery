@@ -29,14 +29,24 @@ const Project = ({project, setDetail}) => {
                         <h3>Status</h3>
                         <Status/>
                     </div>
-                    <div className={styles.link}>
-                        <a href={project.githubUrl}>Click here for live version</a>
+                    <a 
+                        href={project.url} 
+                        className={`${styles.link} ${project.url !== '' ? '': styles.disabled}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <h3>Click here for live version</h3>
                         <Eye/>
-                    </div>
-                    <div className={styles.link}>
-                        <a href={project.url}>Click here for github link</a>
+                    </a>
+                    <a 
+                        href={project.githubUrl} 
+                        className={styles.link}
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        <h3>Click here for github link</h3>
                         <Github/>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div className={styles.stack}>
