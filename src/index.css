@@ -8,6 +8,7 @@
     --accent-color: #669DB2;
     --pinkish: #EA5481;
     --darkGrey: darkgrey;
+    --very-light-grey: #F9F9F9;
 }
 
 body {
@@ -15,6 +16,8 @@ body {
     font-family: var(--main-font);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: var(--very-light-grey);
+    min-height: 100vh;
 }
 
 
