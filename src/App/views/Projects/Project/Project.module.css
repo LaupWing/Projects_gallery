@@ -70,6 +70,16 @@
     cursor: pointer;
     transition: .5s;
 }
+.link.disabled{
+    background: var(--highlight-color);
+    color: var(--darkGrey);
+    pointer-events: none;
+}
+.link.disabled h3,
+.link.disabled svg path{
+    color: var(--darkGrey);
+    fill: var(--darkGrey);
+}
 .link:hover,
 .seeMore:hover{
     background: var(--accent-color);
@@ -101,3 +111,4 @@
 .seeMore svg path{
     fill: var(--highlight-color);
 }
+
