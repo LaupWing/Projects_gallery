@@ -3,5 +3,5 @@
     top: 10px;
     display: flex;
     flex-direction: column;
-    z-index: 100;
+    z-index: var(--mega-important);
 }

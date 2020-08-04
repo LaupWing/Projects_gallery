@@ -9,6 +9,10 @@
     --pinkish: #EA5481;
     --darkGrey: darkgrey;
     --very-light-grey: #F9F9F9;
+    --imporant: 100;
+    --super-important: 1000;
+    --mega-important: 10000;
+    --ultra-important: 100000;
 }
 
 body {
