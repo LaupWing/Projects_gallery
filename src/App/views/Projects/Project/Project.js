@@ -30,11 +30,11 @@ const Project = ({project, setDetail}) => {
                         <Status/>
                     </div>
                     <div className={styles.link}>
-                        <h3>Click here for live version</h3>
+                        <a href={project.githubUrl}>Click here for live version</a>
                         <Eye/>
                     </div>
                     <div className={styles.link}>
-                        <h3>Click here for github link</h3>
+                        <a href={project.url}>Click here for github link</a>
                         <Github/>
                     </div>
                 </div>
