@@ -106,5 +106,17 @@
         "githubUrl": "https://github.com/LaupWing/TostiBoodschappenlijst",
         "url": "https://boodschappenlijst-app.herokuapp.com/",
         "summary": "This website was a school project. This total useless application lets you make your own sandwhich and automatically adds all the ingredients to your shopping list. I liked this project very much, because i learned alot about node and client side programming. Besides that is also looks very pretty"
+    },
+    {
+        "title": "Windows95",
+        "image": "windows95.PNG",
+        "madeBy": "self",
+        "status": "finished",
+        "stack": ["vue"],
+        "createdAt": "5 Januari 2020",
+        "rank": 3,
+        "githubUrl": "https://github.com/LaupWing/windows95",
+        "url": "https://upbeat-perlman-032ebb.netlify.app",
+        "summary": "Made windows 95 with vue. It is not fully completed but the main functional is there. You can move the pictogram and even open/resize/minimize a program!"
     }
 ]
