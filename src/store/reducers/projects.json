@@ -94,5 +94,17 @@
         "githubUrl": "https://github.com/LaupWing/Skills",
         "url": "https://skills-c5bfa.firebaseapp.com/skills",
         "summary": "One of my first fullstack projects. This websites is made to store your projects and categorise them by the technology it uses. I never really finished this website, because the code of this website is really redundant and plain bad"
+    },
+    {
+        "title": "Tosti",
+        "image": "tosti.PNG",
+        "madeBy": "self",
+        "status": "finished",
+        "stack": ["node"],
+        "createdAt": "17 March 2019",
+        "rank": 3,
+        "githubUrl": "https://github.com/LaupWing/TostiBoodschappenlijst",
+        "url": "https://boodschappenlijst-app.herokuapp.com/",
+        "summary": "This website was a school project. This total useless application lets you make your own sandwhich and automatically adds all the ingredients to your shopping list. I liked this project very much, because i learned alot about node and client side programming. Besides that is also looks very pretty"
     }
 ]
