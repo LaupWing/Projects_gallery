@@ -36,16 +36,16 @@
         "summary": "First React Application. This application counts the total words you typed in a 60s"
     },
     {
-        "title": "test 4",
-        "image": "hayden.PNG",
+        "title": "Sphere",
+        "image": "sphere.PNG",
         "madeBy": "self",
-        "status": "unfinished",
-        "stack": ["css", "vue"],
-        "createdAt": "27 July 2020",
+        "status": "finished",
+        "stack": ["css"],
+        "createdAt": "11 August 2019",
         "rank": 4,
         "githubUrl": "https://github.com/",
-        "url": "https://naughty-wescoff-3881e8.netlify.app/",
-        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper metus in nisl fermentum, vitae rhoncus elit feugiat. Quisque tempor, mi quis porta tempus, lectus nisi feugiat massa, quis congue risus lectus id arcu. In hac habitasse platea dictumst. Donec a nunc pretium mi sagittis facilisis. Quisque in purus sed nisi pretium bibendum. Donec dignissim porttitor magna, ac vulputate sem blandit sed. Nullam condimentum porttitor nibh ac porttitor. Nam et fermentum massa. Aenean ut leo laoreet, tempor mi id, blandit tellus."
+        "url": "https://clever-heisenberg-90febc.netlify.app/",
+        "summary": "Copied a wix designed website to improve my css skills."
     },
     {
         "title": "test 5",
