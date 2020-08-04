@@ -58,5 +58,17 @@
         "githubUrl": "https://github.com/LaupWing/CSSpractice-random-website",
         "url": "https://dazzling-euclid-0478af.netlify.app/",
         "summary": "Copied a wix designed website to improve my css skills."
+    },
+    {
+        "title": "React Mini projects",
+        "image": "react_mini_projects.PNG",
+        "madeBy": "self",
+        "status": "unfinished",
+        "stack": ["react"],
+        "createdAt": "26 January 2020",
+        "rank": 5,
+        "githubUrl": "https://github.com/LaupWing/ExplainABit",
+        "url": "https://elastic-ride-769cde.netlify.app/",
+        "summary": "A website where i explain diffrent react concept by little projects. It uses readme's to explain the concepts and a live demo with the code all in one screen"
     }
 ]
