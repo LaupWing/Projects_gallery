@@ -3,6 +3,7 @@ import styles from './Project.module.css';
 import icons_loader from '../../../../components/Icons/icons_loader'; 
 import Eye from '../../../../components/Icons/Eye/Eye';
 import Github from '../../../../components/Icons/Github/Github';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Project = ({project, setDetail}) => {
     const image = require(`../../../../assets/projects_images/${project.image}`);
@@ -19,7 +20,7 @@ const Project = ({project, setDetail}) => {
                 onMouseOver={()=>setShowMore(true)}
                 onMouseOut={()=>setShowMore(false)}
             >
-                <img alt={image} src={image}/>
+                <LazyLoadImage alt={image} src={image}/>
                 <div className={[styles.info, showMore ? '' : styles.hidden].join(' ')}>
                     <div className={styles.field}>
                         <h3>Made By</h3>
