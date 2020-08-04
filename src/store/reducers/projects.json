@@ -9,19 +9,19 @@
         "rank": 1,
         "githubUrl": "https://github.com/LaupWing/Css-Practice-Webshop",
         "url": "https://hopeful-murdock-d6fbfb.netlify.app/",
-        "summary": "Made a wix designed website to improve my css skills."
+        "summary": "Copied a wix designed website to improve my css skills."
     },
     {
-        "title": "test 2",
+        "title": "Hayden",
         "image": "hayden.PNG",
         "madeBy": "self",
         "status": "finished",
-        "stack": ["css", "php"],
-        "createdAt": "25 July 2020",
+        "stack": ["css"],
+        "createdAt": "11 August 2019",
         "rank": 2,
-        "githubUrl": "https://github.com/",
+        "githubUrl": "https://github.com/LaupWing/Css-practice-Resident-website",
         "url": "https://naughty-wescoff-3881e8.netlify.app/",
-        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper metus in nisl fermentum, vitae rhoncus elit feugiat. Quisque tempor, mi quis porta tempus, lectus nisi feugiat massa, quis congue risus lectus id arcu. In hac habitasse platea dictumst. Donec a nunc pretium mi sagittis facilisis. Quisque in purus sed nisi pretium bibendum. Donec dignissim porttitor magna, ac vulputate sem blandit sed. Nullam condimentum porttitor nibh ac porttitor. Nam et fermentum massa. Aenean ut leo laoreet, tempor mi id, blandit tellus."
+        "summary": "Copied a wix designed website to improve my css skills."
     },
     {
         "title": "test 3",
