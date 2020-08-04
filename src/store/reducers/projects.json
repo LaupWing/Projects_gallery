@@ -78,9 +78,21 @@
         "status": "finished",
         "stack": ["react", "firebase"],
         "createdAt": "12 April 2020",
-        "rank": 5,
+        "rank": 3,
         "githubUrl": "https://github.com/LaupWing/code_snippets/",
-        "url": "",
+        "url": "https://codesnippets-ccc09.firebaseapp.com/",
         "summary": "Websie which holds little code snippets of diffrent kinds of languages. You can add your own code snippets if you are a moderator"
+    },
+    {
+        "title": "Skills",
+        "image": "skills.PNG",
+        "madeBy": "self",
+        "status": "finished",
+        "stack": ["vue", "firebase"],
+        "createdAt": "6 June 2019",
+        "rank": 3,
+        "githubUrl": "https://github.com/LaupWing/Skills",
+        "url": "https://skills-c5bfa.firebaseapp.com/skills",
+        "summary": "One of my first fullstack projects. This websites is made to store your projects and categorise them by the technology it uses. I never really finished this website, because the code of this website is really redundant and plain bad"
     }
 ]
