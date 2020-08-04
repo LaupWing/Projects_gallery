@@ -43,20 +43,20 @@
         "stack": ["css"],
         "createdAt": "11 August 2019",
         "rank": 4,
-        "githubUrl": "https://github.com/",
+        "githubUrl": "https://github.com/LaupWing/Css-Practice-Construction-website",
         "url": "https://clever-heisenberg-90febc.netlify.app/",
         "summary": "Copied a wix designed website to improve my css skills."
     },
     {
-        "title": "test 5",
-        "image": "hayden.PNG",
-        "madeBy": "tutorial",
-        "status": "unfinished",
-        "stack": ["css", "django", "php"],
-        "createdAt": "28 July 2020",
+        "title": "Welsh",
+        "image": "welsh.PNG",
+        "madeBy": "self",
+        "status": "finished",
+        "stack": ["css"],
+        "createdAt": "11 August 2019",
         "rank": 5,
-        "githubUrl": "https://github.com/",
-        "url": "https://naughty-wescoff-3881e8.netlify.app/",
-        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper metus in nisl fermentum, vitae rhoncus elit feugiat. Quisque tempor, mi quis porta tempus, lectus nisi feugiat massa, quis congue risus lectus id arcu. In hac habitasse platea dictumst. Donec a nunc pretium mi sagittis facilisis. Quisque in purus sed nisi pretium bibendum. Donec dignissim porttitor magna, ac vulputate sem blandit sed. Nullam condimentum porttitor nibh ac porttitor. Nam et fermentum massa. Aenean ut leo laoreet, tempor mi id, blandit tellus."
+        "githubUrl": "https://github.com/LaupWing/CSSpractice-random-website",
+        "url": "https://dazzling-euclid-0478af.netlify.app/",
+        "summary": "Copied a wix designed website to improve my css skills."
     }
 ]
