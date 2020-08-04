@@ -20,7 +20,7 @@ const Project = ({project, setDetail}) => {
                 onMouseOver={()=>setShowMore(true)}
                 onMouseOut={()=>setShowMore(false)}
             >
-                <LazyLoadImage alt={image} src={image}/>
+                <LazyLoadImage effect="blur" alt={image} src={image}/>
                 <div className={[styles.info, showMore ? '' : styles.hidden].join(' ')}>
                     <div className={styles.field}>
                         <h3>Made By</h3>
