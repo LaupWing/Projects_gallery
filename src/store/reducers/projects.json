@@ -118,5 +118,17 @@
         "githubUrl": "https://github.com/LaupWing/windows95",
         "url": "https://upbeat-perlman-032ebb.netlify.app",
         "summary": "Made windows 95 with vue. It is not fully completed but the main functional is there. You can move the pictogram and even open/resize/minimize a program!"
+    },
+    {
+        "title": "World Time",
+        "image": "world_time.PNG",
+        "madeBy": "tutorial",
+        "status": "finished",
+        "stack": ["flutter"],
+        "createdAt": "5 April 2020",
+        "rank": 20,
+        "githubUrl": "https://github.com/LaupWing/Tutorial-Flutter-WorldTime",
+        "url": "",
+        "summary": "A Flutter tutorial by the net ninja"
     }
 ]

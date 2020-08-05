@@ -20,6 +20,7 @@
     border-left: var(--highlight-color) 1px solid;
     align-items: center;
     overflow-y: auto;
+    max-width: 350px;
 }
 
 .field{
@@ -100,5 +101,5 @@
     background: rgba(0,0,0,.6);
 }
 .imageContainer img{
-    width: 85%;
+    height: 85%;
 }
