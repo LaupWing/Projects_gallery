@@ -22,6 +22,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background: var(--very-light-grey);
     min-height: 100vh;
+    overflow-y: overlay;
 }
 
 

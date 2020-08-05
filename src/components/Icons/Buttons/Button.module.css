@@ -13,3 +13,7 @@
 .buttonContainer{
     padding: 10px 0;
 }
+
+.Button:focus{
+    border: solid 1px var(--highlight-color);
+}
