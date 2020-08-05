@@ -102,4 +102,6 @@
 }
 .imageContainer img{
     height: 85%;
+    object-fit: contain;
+    max-width: 80%;
 }
