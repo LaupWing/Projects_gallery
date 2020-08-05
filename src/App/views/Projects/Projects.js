@@ -12,7 +12,7 @@ const Projects = ({projects, filters, sortBy, searchTerm})=>{
     const [detail, setDetail] = useState(false);
 
     const filtered = projects
-        .filter(x=>!x.stack.find(y=>filters.includes(y)))
+        .filter(x=>!x.stack.every(y=>filters.includes(y)))
         .filter(x=>!filters.includes(x.status)&&!filters.includes(x.madeBy))
         .filter(x=>{
             return x.title.toLowerCase().includes(searchTerm.toLowerCase())
