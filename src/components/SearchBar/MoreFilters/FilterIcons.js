@@ -68,5 +68,10 @@ export default [
         message: 'CSS focused projects',
         icon:'css',
         section: 'Filters'
+    },
+    {
+        message: 'Flutter projects',
+        icon:'flutter',
+        section: 'Filters'
     }
 ];
