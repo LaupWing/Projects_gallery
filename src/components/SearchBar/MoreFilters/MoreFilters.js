@@ -4,6 +4,11 @@ import Icons from '../Icons/Icons';
 const MoreFilters = ({setModifier}) => {
     const icons = [
         {
+            message: 'Select All',
+            icon: 'selectAll',
+            section: 'Filters'
+        },
+        {
             message: 'Django projects',
             icon:'django',
             section: 'Filters'

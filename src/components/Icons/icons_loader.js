@@ -19,6 +19,7 @@ import Javascript from './Javascript/Javascript';
 import Css from './Css/Css';
 import Github from './Github/Github';
 import Link from './Link/Link';
+import SelectAll from './Buttons/SelectAll'
 
 export default {
     django: DjangoIcon,
@@ -42,4 +43,5 @@ export default {
     css: Css,
     github: Github,
     link: Link,
+    selectAll: SelectAll
 }
