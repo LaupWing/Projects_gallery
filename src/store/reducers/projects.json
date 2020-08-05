@@ -129,6 +129,18 @@
         "rank": 20,
         "githubUrl": "https://github.com/LaupWing/Tutorial-Flutter-WorldTime",
         "url": "",
-        "summary": "A Flutter tutorial by the net ninja"
+        "summary": "A Flutter tutorial by the net ninja. This is just a simple mobile app with flutter for check times in diffrent zones"
+    },
+    {
+        "title": "Pizza House",
+        "image": "pizza_house.PNG",
+        "madeBy": "tutorial",
+        "status": "unfinished",
+        "stack": ["laravel"],
+        "createdAt": "3 May 2020",
+        "rank": 20,
+        "githubUrl": "https://github.com/LaupWing/NetNinjaPHPLaravelTutorial",
+        "url": "",
+        "summary": "A Laravel tutorial by the Net Ninja. A pizza app made with Laravel"
     }
 ]
