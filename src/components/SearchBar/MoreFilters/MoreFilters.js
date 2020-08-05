@@ -9,6 +9,11 @@ const MoreFilters = ({setModifier}) => {
             section: 'Filters'
         },
         {
+            message: 'Deselect All',
+            icon: 'deselectAll',
+            section: 'Filters'
+        },
+        {
             message: 'Django projects',
             icon:'django',
             section: 'Filters'

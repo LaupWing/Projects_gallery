@@ -27,7 +27,7 @@
     margin: 10px;
 }
 
-.SearchBar button{
+.SearchBar button.button{
     width: 100%;
     background: transparent;
     border: none;

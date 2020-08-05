@@ -38,7 +38,7 @@ const SearchBar = ({setMessage, onToggleFilter, onSortBy, onSearch})=>{
             >
                 <MoreFilters setModifier={setModifier}/>
             </AnimateHeight>
-            <button onClick={()=>setShowMore(!showMore)}>{showMore ? 'Hide Filters':'Show more'}</button>
+            <button className={styles.button} onClick={()=>setShowMore(!showMore)}>{showMore ? 'Hide Filters':'Show more'}</button>
         </div>
     );
 }

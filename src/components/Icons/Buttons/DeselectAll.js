@@ -5,7 +5,7 @@ const Button = () => {
     return (
         <div className={styles.buttonContainer}>
             <button className={styles.Button}>
-                Select All
+                Deselect All
             </button>
         </div>
     );
