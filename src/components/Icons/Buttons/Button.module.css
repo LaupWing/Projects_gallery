@@ -8,6 +8,7 @@
     color: var(--darkGrey);
     position: relative;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .buttonContainer{
