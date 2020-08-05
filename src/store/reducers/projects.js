@@ -1,5 +1,6 @@
 import * as actionTypes from '../actionTypes';
 import projects from './projects.json';
+import icons from '../../components/SearchBar/MoreFilters/FilterIcons';
 
 const initialState = {
     projects,
@@ -10,7 +11,15 @@ const initialState = {
 
 const filterToggle = (state, action)=>{
     let newFilters = [...state.filters];
-    if(newFilters.includes(action.item)){
+
+    if(action.item === 'deselectAll' || action.item === 'selectAll'){
+        if(action.item === 'deselectAll'){
+            newFilters = icons.map(x=>x.icon);
+        }else{
+            newFilters = [];
+        }
+    }
+    else if(newFilters.includes(action.item)){
         newFilters = newFilters.filter(x=>x!==action.item);
     }else{
         newFilters.push(action.item);
