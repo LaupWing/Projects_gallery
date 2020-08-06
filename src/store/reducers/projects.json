@@ -154,5 +154,17 @@
         "githubUrl": "https://github.com/LaupWing/Spotify-API",
         "url": "https://spotifygame.herokuapp.com/",
         "summary": "This was a project made for the minor i was doing in 2019 (minor is called web development). We all had to made an web application with the use of a third party API. I chose to use the spotify API. This web application is a minigame where you have to guess which song is playing. With the use of sockets you are able to play against other people who are online at that moment."
+    },
+    {
+        "title": "Portfolio Vanille Javascript",
+        "image": "vanille_portfolio.PNG",
+        "madeBy": "self",
+        "status": "finished",
+        "stack": ["javascript"],
+        "createdAt": "10 May 2020",
+        "rank": 20,
+        "githubUrl": "https://github.com/LaupWing/VanilleJSPortfolio",
+        "url": "https://pensive-sinoussi-811deb.netlify.app/",
+        "summary": "My Portfolio website (kinda old) build with plain vanille javascript and Typescript. This website was mainly build to practice typescript. On this website you can switch between diffrent themes by using the icons on the left bottom corner"
     }
 ]
