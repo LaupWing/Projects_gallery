@@ -142,5 +142,17 @@
         "githubUrl": "https://github.com/LaupWing/NetNinjaPHPLaravelTutorial",
         "url": "",
         "summary": "A Laravel tutorial by the Net Ninja. A pizza app made with Laravel"
+    },
+    {
+        "title": "Spotify Game",
+        "image": "spotify_game.PNG",
+        "madeBy": "self",
+        "status": "finished",
+        "stack": ["node", "mongodb"],
+        "createdAt": "14 April 2019",
+        "rank": 20,
+        "githubUrl": "https://github.com/LaupWing/Spotify-API",
+        "url": "https://spotifygame.herokuapp.com/",
+        "summary": "This was a project made for the minor i was doing in 2019 (minor is called web development). We all had to made an web application with the use of a third party API. I chose to use the spotify API. This web application is a minigame where you have to guess which song is playing. With the use of sockets you are able to play against other people who are online at that moment."
     }
 ]
