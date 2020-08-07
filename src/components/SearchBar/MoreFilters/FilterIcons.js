@@ -73,5 +73,10 @@ export default [
         message: 'Flutter projects',
         icon:'flutter',
         section: 'Filters'
+    },
+    {
+        message: 'Typescript projects',
+        icon:'typescript',
+        section: 'Filters'
     }
 ];

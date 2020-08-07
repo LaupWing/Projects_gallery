@@ -22,6 +22,7 @@ import Link from './Link/Link';
 import SelectAll from './Buttons/SelectAll';
 import DeselectAll from './Buttons/DeselectAll';
 import Flutter from './Flutter/Flutter';
+import Typescript from './Typescript/Typescript';
 
 export default {
     django: DjangoIcon,
@@ -47,5 +48,6 @@ export default {
     link: Link,
     selectAll: SelectAll,
     deselectAll: DeselectAll,
-    flutter: Flutter
+    flutter: Flutter,
+    typescript: Typescript
 }

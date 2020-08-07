@@ -160,7 +160,7 @@
         "image": "vanille_portfolio.PNG",
         "madeBy": "self",
         "status": "finished",
-        "stack": ["javascript"],
+        "stack": ["javascript", "typescript"],
         "createdAt": "10 May 2020",
         "rank": 20,
         "githubUrl": "https://github.com/LaupWing/VanilleJSPortfolio",
