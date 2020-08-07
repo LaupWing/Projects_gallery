@@ -1,202 +1,202 @@
 [
     {
-        "title": "Windows95",
+        "createdAt": "5 Januari 2020",
+        "githubUrl": "https://github.com/LaupWing/windows95",
         "image": "windows95.PNG",
         "madeBy": "self",
-        "status": "finished",
+        "rank": 1,
         "stack": [
             "vue"
         ],
-        "createdAt": "5 Januari 2020",
-        "rank": 1,
-        "githubUrl": "https://github.com/LaupWing/windows95",
-        "url": "https://upbeat-perlman-032ebb.netlify.app",
-        "summary": "Made windows 95 with vue. It is not fully completed but the main functional is there. You can move the pictogram and even open/resize/minimize a program!"
+        "status": "finished",
+        "summary": "Made windows 95 with vue. It is not fully completed but the main functional is there. You can move the pictogram and even open/resize/minimize a program!",
+        "title": "Windows95",
+        "url": "https://upbeat-perlman-032ebb.netlify.app"
     },
     {
-        "title": "Tosti",
+        "createdAt": "17 March 2019",
+        "githubUrl": "https://github.com/LaupWing/TostiBoodschappenlijst",
         "image": "tosti.PNG",
         "madeBy": "self",
-        "status": "finished",
+        "rank": 2,
         "stack": [
             "node"
         ],
-        "createdAt": "17 March 2019",
-        "rank": 2,
-        "githubUrl": "https://github.com/LaupWing/TostiBoodschappenlijst",
-        "url": "https://boodschappenlijst-app.herokuapp.com/",
-        "summary": "This website was a school project. This total useless application lets you make your own sandwhich and automatically adds all the ingredients to your shopping list. I liked this project very much, because i learned alot about node and client side programming. Besides that is also looks very pretty"
+        "status": "finished",
+        "summary": "This website was a school project. This total useless application lets you make your own sandwhich and automatically adds all the ingredients to your shopping list. I liked this project very much, because i learned alot about node and client side programming. Besides that is also looks very pretty",
+        "title": "Tosti",
+        "url": "https://boodschappenlijst-app.herokuapp.com/"
     },
     {
-        "title": "Spotify Game",
+        "createdAt": "14 April 2019",
+        "githubUrl": "https://github.com/LaupWing/Spotify-API",
         "image": "spotify_game.PNG",
         "madeBy": "self",
-        "status": "finished",
+        "rank": 2,
         "stack": [
             "node",
             "mongodb"
         ],
-        "createdAt": "14 April 2019",
-        "rank": 2,
-        "githubUrl": "https://github.com/LaupWing/Spotify-API",
-        "url": "https://spotifygame.herokuapp.com/",
-        "summary": "This was a project made for the minor i was doing in 2019 (minor is called web development). We all had to made an web application with the use of a third party API. I chose to use the spotify API. This web application is a minigame where you have to guess which song is playing. With the use of sockets you are able to play against other people who are online at that moment."
+        "status": "finished",
+        "summary": "This was a project made for the minor i was doing in 2019 (minor is called web development). We all had to made an web application with the use of a third party API. I chose to use the spotify API. This web application is a minigame where you have to guess which song is playing. With the use of sockets you are able to play against other people who are online at that moment.",
+        "title": "Spotify Game",
+        "url": "https://spotifygame.herokuapp.com/"
     },
     {
-        "title": "Code Snippets",
+        "createdAt": "12 April 2020",
+        "githubUrl": "https://github.com/LaupWing/code_snippets/",
         "image": "code_snippets.PNG",
         "madeBy": "self",
-        "status": "finished",
+        "rank": 3,
         "stack": [
             "react",
             "firebase"
         ],
-        "createdAt": "12 April 2020",
-        "rank": 3,
-        "githubUrl": "https://github.com/LaupWing/code_snippets/",
-        "url": "https://codesnippets-ccc09.firebaseapp.com/",
-        "summary": "Websie which holds little code snippets of diffrent kinds of languages. You can add your own code snippets if you are a moderator"
+        "status": "finished",
+        "summary": "Websie which holds little code snippets of diffrent kinds of languages. You can add your own code snippets if you are a moderator",
+        "title": "Code Snippets",
+        "url": "https://codesnippets-ccc09.firebaseapp.com/"
     },
     {
-        "title": "Skills",
+        "createdAt": "6 June 2019",
+        "githubUrl": "https://github.com/LaupWing/Skills",
         "image": "skills.PNG",
         "madeBy": "self",
-        "status": "finished",
+        "rank": 3,
         "stack": [
             "vue",
             "firebase"
         ],
-        "createdAt": "6 June 2019",
-        "rank": 3,
-        "githubUrl": "https://github.com/LaupWing/Skills",
-        "url": "https://skills-c5bfa.firebaseapp.com/skills",
-        "summary": "One of my first fullstack projects. This websites is made to store your projects and categorise them by the technology it uses. I never really finished this website, because the code of this website is really redundant and plain bad"
+        "status": "finished",
+        "summary": "One of my first fullstack projects. This websites is made to store your projects and categorise them by the technology it uses. I never really finished this website, because the code of this website is really redundant and plain bad",
+        "title": "Skills",
+        "url": "https://skills-c5bfa.firebaseapp.com/skills"
     },
     {
-        "title": "Portfolio Vanille Javascript",
+        "createdAt": "10 May 2020",
+        "githubUrl": "https://github.com/LaupWing/VanilleJSPortfolio",
         "image": "vanille_portfolio.PNG",
         "madeBy": "self",
-        "status": "finished",
+        "rank": 3,
         "stack": [
             "javascript",
             "typescript"
         ],
-        "createdAt": "10 May 2020",
-        "rank": 3,
-        "githubUrl": "https://github.com/LaupWing/VanilleJSPortfolio",
-        "url": "https://pensive-sinoussi-811deb.netlify.app/",
-        "summary": "My Portfolio website (kinda old) build with plain vanille javascript and Typescript. This website was mainly build to practice typescript. On this website you can switch between diffrent themes by using the icons on the left bottom corner"
+        "status": "finished",
+        "summary": "My Portfolio website (kinda old) build with plain vanille javascript and Typescript. This website was mainly build to practice typescript. On this website you can switch between diffrent themes by using the icons on the left bottom corner",
+        "title": "Portfolio Vanille Javascript",
+        "url": "https://pensive-sinoussi-811deb.netlify.app/"
     },
     {
-        "title": "React type test",
+        "createdAt": "26 July 2020",
+        "githubUrl": "https://github.com/LaupWing/react-type-tester",
         "image": "react_type_test.PNG",
         "madeBy": "self",
-        "status": "finished",
+        "rank": 4,
         "stack": [
             "react"
         ],
-        "createdAt": "26 July 2020",
-        "rank": 4,
-        "githubUrl": "https://github.com/LaupWing/react-type-tester",
-        "url": "https://hungry-mahavira-d1c413.netlify.app/",
-        "summary": "First React Application. This application counts the total words you typed in a 60s"
+        "status": "finished",
+        "summary": "First React Application. This application counts the total words you typed in a 60s",
+        "title": "React type test",
+        "url": "https://hungry-mahavira-d1c413.netlify.app/"
     },
     {
-        "title": "Jones",
+        "createdAt": "11 August 2019",
+        "githubUrl": "https://github.com/LaupWing/Css-Practice-Webshop",
         "image": "jones.PNG",
         "madeBy": "self",
-        "status": "finished",
+        "rank": 5,
         "stack": [
             "css"
         ],
-        "createdAt": "11 August 2019",
-        "rank": 5,
-        "githubUrl": "https://github.com/LaupWing/Css-Practice-Webshop",
-        "url": "https://hopeful-murdock-d6fbfb.netlify.app/",
-        "summary": "Copied a wix designed website to improve my css skills."
+        "status": "finished",
+        "summary": "Copied a wix designed website to improve my css skills.",
+        "title": "Jones",
+        "url": "https://hopeful-murdock-d6fbfb.netlify.app/"
     },
     {
-        "title": "Hayden",
+        "createdAt": "11 August 2019",
+        "githubUrl": "https://github.com/LaupWing/Css-practice-Resident-website",
         "image": "hayden.PNG",
         "madeBy": "self",
-        "status": "finished",
+        "rank": 6,
         "stack": [
             "css"
         ],
-        "createdAt": "11 August 2019",
-        "rank": 6,
-        "githubUrl": "https://github.com/LaupWing/Css-practice-Resident-website",
-        "url": "https://naughty-wescoff-3881e8.netlify.app/",
-        "summary": "Copied a wix designed website to improve my css skills."
+        "status": "finished",
+        "summary": "Copied a wix designed website to improve my css skills.",
+        "title": "Hayden",
+        "url": "https://naughty-wescoff-3881e8.netlify.app/"
     },
     {
-        "title": "Sphere",
+        "createdAt": "11 August 2019",
+        "githubUrl": "https://github.com/LaupWing/Css-Practice-Construction-website",
         "image": "sphere.PNG",
         "madeBy": "self",
-        "status": "finished",
+        "rank": 7,
         "stack": [
             "css"
         ],
-        "createdAt": "11 August 2019",
-        "rank": 7,
-        "githubUrl": "https://github.com/LaupWing/Css-Practice-Construction-website",
-        "url": "https://clever-heisenberg-90febc.netlify.app/",
-        "summary": "Copied a wix designed website to improve my css skills."
+        "status": "finished",
+        "summary": "Copied a wix designed website to improve my css skills.",
+        "title": "Sphere",
+        "url": "https://clever-heisenberg-90febc.netlify.app/"
     },
     {
-        "title": "Welsh",
+        "createdAt": "11 August 2019",
+        "githubUrl": "https://github.com/LaupWing/CSSpractice-random-website",
         "image": "welsh.PNG",
         "madeBy": "self",
-        "status": "finished",
+        "rank": 8,
         "stack": [
             "css"
         ],
-        "createdAt": "11 August 2019",
-        "rank": 8,
-        "githubUrl": "https://github.com/LaupWing/CSSpractice-random-website",
-        "url": "https://dazzling-euclid-0478af.netlify.app/",
-        "summary": "Copied a wix designed website to improve my css skills."
+        "status": "finished",
+        "summary": "Copied a wix designed website to improve my css skills.",
+        "title": "Welsh",
+        "url": "https://dazzling-euclid-0478af.netlify.app/"
     },
     {
-        "title": "React Mini projects",
+        "createdAt": "26 January 2020",
+        "githubUrl": "https://github.com/LaupWing/ExplainABit",
         "image": "react_mini_projects.PNG",
         "madeBy": "self",
-        "status": "unfinished",
+        "rank": 9,
         "stack": [
             "react"
         ],
-        "createdAt": "26 January 2020",
-        "rank": 9,
-        "githubUrl": "https://github.com/LaupWing/ExplainABit",
-        "url": "https://elastic-ride-769cde.netlify.app/",
-        "summary": "A website where i explain diffrent react concept by little projects. It uses readme's to explain the concepts and a live demo with the code all in one screen"
+        "status": "unfinished",
+        "summary": "A website where i explain diffrent react concept by little projects. It uses readme's to explain the concepts and a live demo with the code all in one screen",
+        "title": "React Mini projects",
+        "url": "https://elastic-ride-769cde.netlify.app/"
     },
     {
-        "title": "World Time",
+        "createdAt": "5 April 2020",
+        "githubUrl": "https://github.com/LaupWing/Tutorial-Flutter-WorldTime",
         "image": "world_time.PNG",
         "madeBy": "tutorial",
-        "status": "finished",
+        "rank": 10,
         "stack": [
             "flutter"
         ],
-        "createdAt": "5 April 2020",
-        "rank": 10,
-        "githubUrl": "https://github.com/LaupWing/Tutorial-Flutter-WorldTime",
-        "url": "",
-        "summary": "A Flutter tutorial by the net ninja. This is just a simple mobile app with flutter for check times in diffrent zones"
+        "status": "finished",
+        "summary": "A Flutter tutorial by the net ninja. This is just a simple mobile app with flutter for check times in diffrent zones",
+        "title": "World Time",
+        "url": ""
     },
     {
-        "title": "Pizza House",
+        "createdAt": "3 May 2020",
+        "githubUrl": "https://github.com/LaupWing/NetNinjaPHPLaravelTutorial",
         "image": "pizza_house.PNG",
         "madeBy": "tutorial",
-        "status": "unfinished",
+        "rank": 11,
         "stack": [
             "laravel"
         ],
-        "createdAt": "3 May 2020",
-        "rank": 11,
-        "githubUrl": "https://github.com/LaupWing/NetNinjaPHPLaravelTutorial",
-        "url": "",
-        "summary": "A Laravel tutorial by the Net Ninja. A pizza app made with Laravel"
+        "status": "unfinished",
+        "summary": "A Laravel tutorial by the Net Ninja. A pizza app made with Laravel",
+        "title": "Pizza House",
+        "url": ""
     }
 ]

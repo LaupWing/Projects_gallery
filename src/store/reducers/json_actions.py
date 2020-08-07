@@ -25,13 +25,13 @@ class json_actions:
                 return
             self.data.sort(key=self.get_prop)
 
-test = json_actions(sys.argv[1])
+# test = json_actions(sys.argv[1])
 # print(sys.argv[1])
-# def get_rank(item):
-#     return item.get('rank')
+def get_rank(item):
+    return item.get('rank')
 
-# with open(os.path.join(os.getcwd(),json_file)) as f:
-#     data = json.load(f)
-#     data.sort(key=get_rank)
-#     with open(os.path.join(os.getcwd(),json_file), 'w') as f2:
-#         json.dump(data, f2)
+with open(os.path.join(os.getcwd(),json_file)) as f:
+    data = json.load(f)
+    data.sort(key=get_rank)
+    with open(os.path.join(os.getcwd(),json_file), 'w') as f2:
+        json.dump(data, f2, indent=4, sort_keys=True)
