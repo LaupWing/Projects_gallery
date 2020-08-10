@@ -1,10 +1,12 @@
 import React from 'react'
+import skill_list from './skill_list'
+import Skill from './Skill/Skill'
 
 const Skills = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            {skill_list.map(skill=> <Skill skill={skill}/>)}
+        </>
     )
 }
 

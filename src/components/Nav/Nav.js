@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Nav.module.css'
 import NavItem from './NavItem/NavItem'
 
-const Nav = (props)=>{
+const Nav = ()=>{
     return (
         <nav className={styles.Nav}>
             <li>Logo</li>
@@ -16,6 +16,11 @@ const Nav = (props)=>{
                 link="/projects"
             >
                 Projects
+            </NavItem>
+            <NavItem
+                link="/skills"
+            >
+                skills
             </NavItem>
         </nav>
     )
