@@ -49,3 +49,20 @@ a{
 .strokeWider > path{
     stroke-width: 15px!important;
 }
+button{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-top: solid 1px var(--highlight-color);
+    padding: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--highlight-color);
+    font-size: .6rem;
+    cursor: pointer;
+    transition: .25s;
+}
+button:hover{
+    background: var(--accent-color);
+    color: var(--main-color);
+}

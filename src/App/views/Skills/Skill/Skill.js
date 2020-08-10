@@ -6,7 +6,10 @@ const Skill = ({skill}) => {
     const Icon = icons_loader[skill.icon]
     return (
         <div className={styles.skill}>
-            <Icon/>
+            <div className={styles.progress_container}>
+                <Icon/>
+            </div>
+            <button>Show projects</button>
         </div>
     )
 }

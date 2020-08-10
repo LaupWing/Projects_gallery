@@ -26,22 +26,3 @@
     padding: 5px;
     margin: 10px;
 }
-
-.SearchBar button.button{
-    width: 100%;
-    background: transparent;
-    border: none;
-    border-top: solid 1px var(--highlight-color);
-    padding: 2px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--highlight-color);
-    font-size: .6rem;
-    cursor: pointer;
-    transition: .25s;
-}
-.SearchBar button:hover{
-    background: var(--accent-color);
-    color: var(--main-color);
-}
-

@@ -4,10 +4,16 @@
     border-radius: 5px;
     display: flex;
     height: 70px;
-    padding: 0 10px;
     margin-bottom: 10px;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
 }
 
 .skill svg{
     width: 50px;
+}
+.progress_container{
+    padding: 0 10px;
+    height: 100%;
+    display: flex;
 }
