@@ -24,4 +24,5 @@
     color: var(--main-color);
     font-weight: normal;
     font-size: .8rem;
+    white-space: break-spaces;
 }
