@@ -10,7 +10,7 @@
 }
 
 main{
-    margin-top: 3vh;
+    margin: 3vh 0;
     width: 100%;
     display: flex;
     flex-direction: column;
