@@ -10,13 +10,19 @@ const Skill = ({skill, projects, max}) => {
         const finished = projects.filter(x=>x.status ===status) 
         return 100 - ((max - finished.length) * (100/max))  
     }
+    const message =()=>{
+        const finished = projects.map(x=>x.status==='finished').length
+        const unfinished = projects.map(x=>x.status==='unfinished').length
+        console.log(`Finished projects: ${finished} Unfinished projects: ${unfinished}`)
+        return `Finished projects: ${finished} Unfinished projects: ${unfinished}`
+    }
     return (
         <div 
             className={styles.skill}
             onMouseOver={()=>setShowTooltip(true)}
             onMouseOut={()=>setShowTooltip(false)}
         >
-            {showTooltip && <Tooltip message={'test'}/>}
+            {showTooltip && <Tooltip message={()=>message()}/>}
             <div className={styles.progress_container}>
                 <Icon/>
                 <div className={styles.progress}>
