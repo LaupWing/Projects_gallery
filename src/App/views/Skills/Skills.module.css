@@ -1,0 +1,33 @@
+.display_progressbar{
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    position: sticky;
+    top: 10px;
+    background: var(--very-light-grey);
+    z-index: var(--mega-important);
+}
+.display_progressbar h3{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: .9rem;
+    text-align: left;
+}
+.display{
+    border: solid 1px var(--accent-color);
+    color: var(--accent-color);
+    padding: 2px 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .9rem;
+}
+
+.display.active{
+    color: var(--main-color);
+    background: var(--accent-color);
+}

@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import skill_list from './skill_list'
 import Skill from './Skill/Skill'
 import {connect} from 'react-redux'
+import styles from './Skills.module.css'
 
 const Skills = ({projects}) => {
     const skills_projects = skill_list
@@ -10,15 +11,31 @@ const Skills = ({projects}) => {
         })
         .map(y=>y.length)
     const max_projects = Math.max.apply(Math,skills_projects)
-    
+    const [status, setStatus] = useState(true)
     return (
         <>
+            <nav className={styles.display_progressbar}>
+                <h3>Display progressbar:</h3> 
+                <div 
+                    className={`${styles.display} ${status && styles.active}`}
+                    onClick={()=>setStatus(true)}
+                >
+                    Status
+                </div>
+                <div 
+                    className={`${styles.display} ${!status && styles.active}`}
+                    onClick={()=>setStatus(false)}
+                >
+                    Made By
+                </div>
+            </nav>
             {skill_list.map((skill, i)=> 
                 <Skill 
                     key={i} 
                     skill={skill}
                     projects={projects.filter(x=>x.stack.includes(skill.icon))}
                     max={max_projects}
+                    status={status}
                 />
             )}
         </>
