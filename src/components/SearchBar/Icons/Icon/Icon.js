@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {connect} from 'react-redux';
-import Tooltip from './Tooltip/Tooltip';
+import Tooltip from '../../../Tooltip/Tooltip';
 import styles from './Icon.module.css';
 import icons_loader from '../../../../components/Icons/icons_loader';
 

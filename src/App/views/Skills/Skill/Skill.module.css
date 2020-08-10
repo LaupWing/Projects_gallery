@@ -7,8 +7,11 @@
     margin-bottom: 10px;
     flex-direction: column;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    transition: .5s;
 }
-
+.skill:hover{
+    border-color: var(--pinkish);
+}
 .skill svg{
     width: 50px;
 }
@@ -24,7 +27,7 @@
     opacity: .25;
     transition: .5s opacity;
 }
-.progress:hover{
+.skill:hover .progress{
     opacity: 1;
 }
 .progress_bar_finished,
