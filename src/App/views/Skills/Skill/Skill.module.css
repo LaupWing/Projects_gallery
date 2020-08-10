@@ -35,7 +35,7 @@
 .progress_bar_unfinished{
     height: 80%;
     opacity: 0.5;
-    background: var(--pinkish);
+    /* background: var(--pinkish); */
     transition: .5s;
 }
 .progress_bar_unfinished{

@@ -33,14 +33,16 @@ const Skill = ({skill, projects, max, status}) => {
                     <div 
                         className={styles.progress_bar_finished}
                         style={{
-                            width: `${calcWidth(status ? 'finished' : 'self')}%`
+                            width: `${calcWidth(status ? 'finished' : 'self')}%`,
+                            background: `${status ? 'var(--pinkish)': 'var(--accent-color)'}`
                         }}
                     >
                     </div>
                     <div 
                         className={styles.progress_bar_unfinished}
                         style={{
-                            width: `${calcWidth(status ? 'unfinished' : 'tutorial')}%`
+                            width: `${calcWidth(status ? 'unfinished' : 'tutorial')}%`,
+                            background: `${status ? 'var(--pinkish)': 'var(--accent-color)'}`
                         }}
                     >
                     </div>
