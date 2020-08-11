@@ -27,7 +27,7 @@ const Skill = ({skill, projects, max, status}) => {
         const tutorial = projects.filter(x=>x.madeBy==='tutorial').length
         return `Selfmade projects: ${self} \n Tutorial projects: ${tutorial}`
     }
-
+    
     return (
         <div 
             className={`${styles.skill} ${showProjects && styles.expand}`}
