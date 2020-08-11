@@ -198,5 +198,19 @@
         "summary": "A Laravel tutorial by the Net Ninja. A pizza app made with Laravel",
         "title": "Pizza House",
         "url": ""
+    },
+    {
+        "createdAt": "21 June 2020",
+        "githubUrl": "https://github.com/LaupWing/UdemyElectronTutorial",
+        "image": "imageshrink.PNG",
+        "madeBy": "tutorial",
+        "rank": 12,
+        "stack": [
+            "electron"
+        ],
+        "status": "finished",
+        "summary": "A tutorial about electron from Brad Traversy on Udemy. This is a little desktop application that shrinks images.",
+        "title": "Image Shrink",
+        "url": ""
     }
 ]
