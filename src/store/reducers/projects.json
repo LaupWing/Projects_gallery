@@ -226,5 +226,19 @@
         "summary": "A tutorial about electron from Brad Traversy on Udemy. This is a little desktop application that monitors your pc temperature and other stuff.",
         "title": "Systop",
         "url": ""
+    },
+    {
+        "createdAt": "21 June 2020",
+        "githubUrl": "https://github.com/LaupWing/UdemyElectronTutorial",
+        "image": "buglogger.PNG",
+        "madeBy": "tutorial",
+        "rank": 14,
+        "stack": [
+            "electron"
+        ],
+        "status": "finished",
+        "summary": "A tutorial about electron from Brad Traversy on Udemy. This is a little desktop application where you can store your buggs. These buggs will be stored in a database so that other people can also see the bugs (if these people have the desktop app).",
+        "title": "BuggLogger",
+        "url": ""
     }
 ]
