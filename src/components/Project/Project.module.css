@@ -24,6 +24,7 @@
     height: 250px;
     overflow: hidden;
     position: relative;
+    display: flex;
 }
 .imageContainer img{
     object-fit: cover;

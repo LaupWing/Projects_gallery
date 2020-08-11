@@ -46,6 +46,7 @@
     opacity: 0.25;
 }
 .projects{
+    margin: 10px 0;
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fit, 30%);
