@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import SearchBar from '../../../components/SearchBar/SearchBar';
 import {connect} from 'react-redux';
-import Project from './Project/Project';
+import Project from '../../../components/Project/Project';
 import styles from './Projects.module.css';
 import Messages from '../../../components/Messages/Messages';
 import moment from 'moment';

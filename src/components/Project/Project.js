@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import styles from './Project.module.css';
-import icons_loader from '../../../../components/Icons/icons_loader'; 
-import Eye from '../../../../components/Icons/Eye/Eye';
-import Github from '../../../../components/Icons/Github/Github';
+import icons_loader from '../Icons/icons_loader'; 
+import Eye from '../Icons/Eye/Eye';
+import Github from '../Icons/Github/Github';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Project = ({project, setDetail}) => {
-    const image = require(`../../../../assets/projects_images/${project.image}`);
+    const image = require(`../../assets/projects_images/${project.image}`);
     const MadeBy = icons_loader[project.madeBy];
     const Status = icons_loader[project.status];
     const [showMore, setShowMore] = useState(false);
