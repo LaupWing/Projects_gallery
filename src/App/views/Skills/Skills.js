@@ -5,13 +5,14 @@ import {connect} from 'react-redux'
 import styles from './Skills.module.css'
 
 const Skills = ({projects}) => {
+    const [status, setStatus] = useState(true)
+    
     const skills_projects = skill_list
         .map(x=>{
             return projects.filter(y=>y.stack.includes(x.icon))
         })
         .map(y=>y.length)
     const max_projects = Math.max.apply(Math,skills_projects)
-    const [status, setStatus] = useState(true)
     return (
         <>
             <nav className={styles.display_progressbar}>

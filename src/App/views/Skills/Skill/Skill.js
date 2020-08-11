@@ -2,10 +2,14 @@ import React, {useState} from 'react'
 import icons_loader from '../../../../components/Icons/icons_loader'
 import styles from './Skill.module.css'
 import Tooltip from '../../../../components/Tooltip/Tooltip'
+import Detail from '../../../../components/Detail/Detail'
+import Project from '../../../../components/Project/Project'
 
 const Skill = ({skill, projects, max, status}) => {
     const Icon = icons_loader[skill.icon]
     const [showTooltip, setShowTooltip] = useState(false)
+    const [detail, setDetail] = useState(false)
+    const [showProjects, setShowProjects] = useState(false)
 
     const calcWidth = (val)=>{
         const filtered = projects.filter(x=>status? x.status ===val : x.madeBy === val) 
@@ -23,7 +27,7 @@ const Skill = ({skill, projects, max, status}) => {
         const tutorial = projects.filter(x=>x.madeBy==='tutorial').length
         return `Selfmade projects: ${self} \n Tutorial projects: ${tutorial}`
     }
-    
+
     return (
         <div 
             className={styles.skill}
@@ -31,6 +35,7 @@ const Skill = ({skill, projects, max, status}) => {
             onMouseOut={()=>setShowTooltip(false)}
         >
             {showTooltip && <Tooltip message={status ? byStatus() : byMadeBy()}/>}
+            {detail && <Detail setDetail={setDetail}/>}
             <div className={styles.progress_container}>
                 <Icon/>
                 <div className={styles.progress}>
@@ -52,7 +57,16 @@ const Skill = ({skill, projects, max, status}) => {
                     </div>
                 </div>
             </div>
-            <button>Show projects</button>
+            <div className={styles.projects}>
+                {showProjects && projects.map((project,i)=><Project 
+                    project={project} 
+                    key={i}
+                    setDetail={setDetail}
+                />)}
+            </div>
+            <button onClick={()=>setShowProjects(!showProjects)}>
+                {showProjects ? 'Hide Projects' :  'Show projects'}
+            </button>
         </div>
     )
 }
