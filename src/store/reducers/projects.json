@@ -212,5 +212,19 @@
         "summary": "A tutorial about electron from Brad Traversy on Udemy. This is a little desktop application that shrinks images.",
         "title": "Image Shrink",
         "url": ""
+    },
+    {
+        "createdAt": "21 June 2020",
+        "githubUrl": "https://github.com/LaupWing/UdemyElectronTutorial",
+        "image": "systop.PNG",
+        "madeBy": "tutorial",
+        "rank": 13,
+        "stack": [
+            "electron"
+        ],
+        "status": "finished",
+        "summary": "A tutorial about electron from Brad Traversy on Udemy. This is a little desktop application that monitors your pc temperature and other stuff.",
+        "title": "Systop",
+        "url": ""
     }
 ]
