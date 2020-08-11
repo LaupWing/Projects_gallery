@@ -30,7 +30,7 @@ const Skill = ({skill, projects, max, status}) => {
 
     return (
         <div 
-            className={styles.skill}
+            className={`${styles.skill} ${showProjects && styles.expand}`}
             onMouseOver={()=>setShowTooltip(true)}
             onMouseOut={()=>setShowTooltip(false)}
         >
@@ -57,13 +57,13 @@ const Skill = ({skill, projects, max, status}) => {
                     </div>
                 </div>
             </div>
-            <div className={styles.projects}>
-                {showProjects && projects.map((project,i)=><Project 
+            {showProjects && <div className={styles.projects}>
+                {projects.map((project,i)=><Project 
                     project={project} 
                     key={i}
                     setDetail={setDetail}
                 />)}
-            </div>
+            </div>}
             <button onClick={()=>setShowProjects(!showProjects)}>
                 {showProjects ? 'Hide Projects' :  'Show projects'}
             </button>

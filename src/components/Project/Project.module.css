@@ -60,7 +60,7 @@
 }
 
 .Project svg{
-    width: 40px;
+    width: 40px !important;
     padding: 5px;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .link svg{
-    width: 50px;
+    width: 50px!important;
 }
 .seeMore{
     border-top: 1px solid var(--highlight-color);
@@ -109,7 +109,7 @@
     transition: .5s;
 }
 .seeMore svg{
-    width: 30px;
+    width: 30px!important;
     margin-left: 5px;
 }
 .seeMore svg path{

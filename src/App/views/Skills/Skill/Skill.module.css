@@ -10,6 +10,10 @@
     transition: .5s;
     position: relative;
 }
+.skill.expand{
+    width: 100%;
+    height: auto;
+}
 .skill:hover{
     border-color: var(--pinkish);
 }
@@ -40,4 +44,13 @@
 }
 .progress_bar_unfinished{
     opacity: 0.25;
+}
+.projects{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, 30%);
+    grid-gap: 15px;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
 }
