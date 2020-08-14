@@ -242,7 +242,7 @@
         "url": ""
     },
     {
-        "createdAt": "21 June 2020",
+        "createdAt": "18 August 2019",
         "githubUrl": "https://github.com/LaupWing/Tutorial-TheNetNinjaGEO",
         "image": "geo_app.PNG",
         "madeBy": "tutorial",
@@ -255,5 +255,21 @@
         "summary": "A tutorial about vue and firebase from The Net Ninja on Udemy. This is a web application uses the google maps api to show your current location and other users their location",
         "title": "Geo App",
         "url": "https://ninja-geo-ce3eb.firebaseapp.com/"
+    },
+    {
+        "createdAt": "2 Februari 2020",
+        "githubUrl": "https://github.com/LaupWing/Project-Tech",
+        "image": "dating_app.PNG",
+        "madeBy": "self",
+        "rank": 16,
+        "stack": [
+            "mongoose",
+            "node",
+            "javascript"
+        ],
+        "status": "finished",
+        "summary": "This is a dating website made for a school project. It is a full stack app using node, sockets, vanille javascript and mongoose as the database. It is fully functional dating app. You can login/signup, match with other users, and send messages to the matched users",
+        "title": "Dating App",
+        "url": "https://dating-app-manager.herokuapp.com/"
     }
 ]
