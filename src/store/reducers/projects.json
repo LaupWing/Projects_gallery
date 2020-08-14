@@ -263,7 +263,7 @@
         "madeBy": "self",
         "rank": 16,
         "stack": [
-            "mongoose",
+            "mongodb",
             "node",
             "javascript"
         ],
