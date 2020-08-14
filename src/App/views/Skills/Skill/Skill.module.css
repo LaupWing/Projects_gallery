@@ -55,3 +55,11 @@
     align-content: center;
     padding: 10px;
 }
+
+.noProject{
+    font-size: 0.9rem;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: var(--darkGrey);
+}

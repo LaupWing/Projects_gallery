@@ -57,13 +57,14 @@ const Skill = ({skill, projects, max, status}) => {
                     </div>
                 </div>
             </div>
-            {showProjects && <div className={styles.projects}>
+            {(showProjects && projects.length > 0) && <div className={styles.projects}>
                 {projects.map((project,i)=><Project 
                     project={project} 
                     key={i}
                     setDetail={setDetail}
                 />)}
             </div>}
+            {(showProjects && projects.length === 0) &&<h2 className={styles.noProject}>There are no projects linked with this skill. This means I did not have time to add the project linked with this skill. All the skills I have listed here have at least one project, selfmade or by tutorial.</h2>}
             <button onClick={()=>setShowProjects(!showProjects)}>
                 {showProjects ? 'Hide Projects' :  'Show projects'}
             </button>
