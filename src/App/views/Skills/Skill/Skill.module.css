@@ -20,6 +20,9 @@
 .skill svg{
     width: 50px;
 }
+.skill button:focus{
+    border-top: solid 1px var(--highlight-color);
+}
 .progress_container{
     padding: 10px;
     height: 100%;

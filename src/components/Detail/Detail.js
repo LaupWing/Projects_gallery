@@ -2,14 +2,15 @@ import React from 'react';
 import styles from './Detail.module.css';
 import icon_loader from '../../components/Icons/icons_loader';
 import moment from 'moment';
+import {withRouter} from 'react-router-dom'
 
-const Detail = ({detail, setDetail}) => {
+const Detail = ({detail, setDetail, location}) => {
     const MadeBy = icon_loader[detail.madeBy];
     const Status = icon_loader[detail.status];
     const Github = icon_loader.github;
     const Link = icon_loader.link;
     const image = require(`../../assets/projects_images/${detail.image}`);
-
+    console.log(location)
     return (
         <div className={styles.Detail}>
             {detail.url !== '' ? <iframe src={detail.url} title="W3Schools Free Online Web Tutorials"></iframe> : <div className={styles.imageContainer}><img alt={detail.image} src={image}/></div>}
@@ -111,4 +112,4 @@ const Detail = ({detail, setDetail}) => {
     );
 }
 
-export default Detail;
+export default withRouter(Detail);

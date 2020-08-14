@@ -35,7 +35,7 @@ const Skill = ({skill, projects, max, status}) => {
             onMouseOut={()=>setShowTooltip(false)}
         >
             {showTooltip && <Tooltip message={status ? byStatus() : byMadeBy()}/>}
-            {detail && <Detail setDetail={setDetail}/>}
+            {detail && <Detail detail={detail} setDetail={setDetail}/>}
             <div className={styles.progress_container}>
                 <Icon/>
                 <div className={styles.progress}>
