@@ -31,8 +31,8 @@ const Skill = ({skill, projects, max, status}) => {
     return (
         <div 
             className={`${styles.skill} ${showProjects && styles.expand}`}
-            onMouseOver={()=>setShowTooltip(true)}
-            onMouseOut={()=>setShowTooltip(false)}
+            onMouseOver={()=>!detail && setShowTooltip(true)}
+            onMouseOut={()=>!detail &&setShowTooltip(false)}
         >
             {showTooltip && <Tooltip message={status ? byStatus() : byMadeBy()}/>}
             {detail && <Detail detail={detail} setDetail={setDetail}/>}
