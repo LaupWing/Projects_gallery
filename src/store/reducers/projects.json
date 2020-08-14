@@ -240,5 +240,20 @@
         "summary": "A tutorial about electron from Brad Traversy on Udemy. This is a little desktop application where you can store your buggs. These buggs will be stored in a database so that other people can also see the bugs (if these people have the desktop app).",
         "title": "BuggLogger",
         "url": ""
+    },
+    {
+        "createdAt": "21 June 2020",
+        "githubUrl": "https://github.com/LaupWing/Tutorial-TheNetNinjaGEO",
+        "image": "geo_app.PNG",
+        "madeBy": "tutorial",
+        "rank": 15,
+        "stack": [
+            "vue",
+            "firebase"
+        ],
+        "status": "finished",
+        "summary": "A tutorial about vue and firebase from The Net Ninja on Udemy. This is a web application uses the google maps api to show your current location and other users their location",
+        "title": "Geo App",
+        "url": "https://ninja-geo-ce3eb.firebaseapp.com/"
     }
 ]
