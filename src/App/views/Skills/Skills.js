@@ -29,6 +29,9 @@ const Skills = ({projects}) => {
                 >
                     Made By
                 </div>
+                <p className={styles.info}>
+                    Total Projects: <span>{projects.length}</span>Max Projects per skill: <span>{max_projects}</span>
+                </p>
             </nav>
             {skill_list.map((skill, i)=> 
                 <Skill 

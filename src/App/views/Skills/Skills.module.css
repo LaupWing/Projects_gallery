@@ -1,3 +1,17 @@
+.info{
+    width: 100%;
+    margin-top: 15px;
+    font-size: .9rem;
+    text-transform: uppercase;
+    color: var(--darkGrey);
+}
+.info span{
+    color: var(--accent-color);
+    font-weight: bold;
+}
+.info span:first-of-type{
+    margin-right: 15px;
+}
 .display_progressbar{
     margin: 10px 0;
     padding: 15px 10px;
@@ -6,6 +20,7 @@
     width: 85%;
     position: sticky;
     top: 0;
+    flex-wrap: wrap;
     background: var(--very-light-grey);
     z-index: var(--mega-important);
 }
