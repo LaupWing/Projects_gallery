@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import SearchBar from '../../../components/SearchBar/SearchBar';
 import {connect} from 'react-redux';
 import Project from '../../../components/Project/Project';
