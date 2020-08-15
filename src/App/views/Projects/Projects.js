@@ -33,13 +33,6 @@ const Projects = ({projects, filters, sortBy, searchTerm})=>{
         setMessages(addedMessage);
     }
 
-    useEffect(()=>{
-        if(detail){
-            document.body.style.overflow = 'hidden';
-        }else{
-            document.body.removeAttribute('style');
-        }
-    },[detail])
     return(
         <>
             {messages.length>0 && <Messages 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import styles from './Detail.module.css';
 import icon_loader from '../../components/Icons/icons_loader';
 import moment from 'moment';
@@ -11,7 +11,13 @@ const Detail = ({detail, setDetail, location}) => {
     const Link = icon_loader.link;
     const image = require(`../../assets/projects_images/${detail.image}`);
     const cur_path = location.pathname.replace('/', '');
-    console.log('detail')
+    useEffect(()=>{
+        document.body.style.overflow = 'hidden';
+
+        return () =>{
+            document.body.removeAttribute('style');
+        }
+    },[])
     return (
         <div className={styles.Detail}>
             {detail.url !== '' ? <iframe src={detail.url} title="W3Schools Free Online Web Tutorials"></iframe> : <div className={styles.imageContainer}><img alt={detail.image} src={image}/></div>}
