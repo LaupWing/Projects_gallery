@@ -271,5 +271,20 @@
         "summary": "This is a dating website made for a school project. It is a full stack app using node, sockets, vanille javascript and mongoose as the database. It is fully functional dating app. You can login/signup, match with other users, and send messages to the matched users",
         "title": "Dating App",
         "url": "https://dating-app-manager.herokuapp.com/"
+    },
+    {
+        "createdAt": "11 August 2019",
+        "githubUrl": "https://github.com/LaupWing/Daily-Planner",
+        "image": "dailyplanner.PNG",
+        "madeBy": "self",
+        "rank": 16,
+        "stack": [
+            "vue",
+            "firebase"
+        ],
+        "status": "unfinished",
+        "summary": "A web application where you can plan in each day. The goal of this web application is to maximize your daily output and help you to focus on your tasks on that day.",
+        "title": "Daily Planner",
+        "url": ""
     }
 ]
