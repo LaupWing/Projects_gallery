@@ -313,7 +313,11 @@
             "vue",
             "firebase",
             "php",
-            "laravel"
+            "laravel",
+            "javascript",
+            "node",
+            "mongodb",
+            "typescript"
         ],
         "status": "unfinished",
         "summary": "A tutorial from tech with tim. This is a desktop game. Just a simple space invaders game.",
