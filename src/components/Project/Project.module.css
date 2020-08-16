@@ -3,6 +3,8 @@
     border-radius: 2px;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
     background: var(--main-color);
+    display: flex;
+    flex-direction: column;
 }
 .Project:hover{
     border-color: var(--pinkish);
@@ -37,6 +39,9 @@
     top: 0;
     height: 100%;
     transition: .5s;
+}
+.stack{
+    flex-grow: 1;
 }
 .stack, .info{
     display: flex;
