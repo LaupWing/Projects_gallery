@@ -76,7 +76,8 @@ const Detail = ({detail, setDetail, location}) => {
                         width: '100%'
                     }}>Stack</h2>
                     <p style={{
-                        display: 'flex'
+                        display: 'flex',
+                        flexWrap: 'wrap'
                     }}>{detail.stack.map((x,i)=>{
                         const Cmp = icon_loader[x];
                         return <Cmp key={i}/>;
