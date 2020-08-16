@@ -57,10 +57,12 @@ const Project = ({project, setDetail}) => {
             </div>
             <div className={styles.stack}>
                 <h3>Stack</h3>
-                {project.stack.map((x,i)=>{
-                    const Icon = icons_loader[x]
-                    return <Icon key={i}/>
-                })}
+                <div className={styles.skills}>
+                    {project.stack.map((x,i)=>{
+                        const Icon = icons_loader[x]
+                        return <Icon key={i}/>
+                    })}
+                </div>
             </div>
             <h3 
                 onClick={()=>setDetail(project)} 

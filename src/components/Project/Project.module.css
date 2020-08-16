@@ -43,11 +43,18 @@
 .stack{
     flex-grow: 1;
 }
-.stack, .info{
+.info{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.stack,.info{
     border-top: solid 1px var(--highlight-color);
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .Project h3{
     width: 100%;
