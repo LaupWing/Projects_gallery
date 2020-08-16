@@ -277,7 +277,7 @@
         "githubUrl": "https://github.com/LaupWing/Daily-Planner",
         "image": "dailyplanner.PNG",
         "madeBy": "self",
-        "rank": 16,
+        "rank": 17,
         "stack": [
             "vue",
             "firebase"
@@ -285,6 +285,39 @@
         "status": "unfinished",
         "summary": "A web application where you can plan in each day. The goal of this web application is to maximize your daily output and help you to focus on your tasks on that day.",
         "title": "Daily Planner",
+        "url": ""
+    },
+    {
+        "createdAt": "11 August 2019",
+        "githubUrl": "https://github.com/LaupWing/Daily-Planner",
+        "image": "space_invaders.PNG",
+        "madeBy": "tutorial",
+        "rank": 18,
+        "stack": [
+            "python"
+        ],
+        "status": "finished",
+        "summary": "A tutorial from tech with tim. This is a desktop game. Just a simple space invaders game.",
+        "title": "Space Invaders",
+        "url": ""
+    },
+    {
+        "createdAt": "12 April 2020",
+        "githubUrl": "https://github.com/LaupWing/TodoApp",
+        "image": "todo_apps.PNG",
+        "madeBy": "self",
+        "rank": 19,
+        "stack": [
+            "django",
+            "react",
+            "vue",
+            "firebase",
+            "php",
+            "laravel"
+        ],
+        "status": "unfinished",
+        "summary": "A tutorial from tech with tim. This is a desktop game. Just a simple space invaders game.",
+        "title": "Todo Apps",
         "url": ""
     }
 ]
