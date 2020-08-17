@@ -1,3 +1,7 @@
 .active{
-    text-decoration: underline;
+    color: var(--pinkish);
+    border-bottom: solid 1.5px var(--accent-color);
+}
+.link{
+    transition: .25s;
 }

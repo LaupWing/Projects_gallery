@@ -38,7 +38,7 @@
     color: var(--accent-color);
 }
 .field svg{
-    width: 40px;
+    width: 40px!important;
     margin-top: 3px;
     padding: 5px;
 }
