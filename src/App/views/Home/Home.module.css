@@ -1,6 +1,7 @@
 .name{
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 .name span{
     margin: 0 5px;
@@ -10,4 +11,16 @@
 }
 .name span:last-of-type{
     color: var(--accent-color);
+}
+
+.content{
+    margin: 15px 0;
+    width: 80%;
+    letter-spacing: .5px;
+    text-align: left;
+}
+
+.content::first-letter{
+    color: var(--pinkish);
+    font-size: 1.5rem;
 }
