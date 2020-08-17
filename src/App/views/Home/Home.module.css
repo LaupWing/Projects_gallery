@@ -2,9 +2,18 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    text-align: left;
+    width: 80%;
+}
+.name p{
+    display: flex;
+    flex-direction: column;
+}
+.name svg{
+    width: 65px;
 }
 .name span{
-    margin: 0 5px;
+    margin-left: 5px;
 }
 .name span:first-of-type{
     color: var(--pinkish);
