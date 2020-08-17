@@ -1,0 +1,13 @@
+.name{
+    display: flex;
+    align-items: center;
+}
+.name span{
+    margin: 0 5px;
+}
+.name span:first-of-type{
+    color: var(--pinkish);
+}
+.name span:last-of-type{
+    color: var(--accent-color);
+}
