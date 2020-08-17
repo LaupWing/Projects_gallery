@@ -1,6 +1,6 @@
 .active{
     color: var(--pinkish);
-    border-bottom: solid 1.5px var(--accent-color);
+    border-bottom: solid 1px var(--accent-color);
 }
 .link{
     transition: .25s;
