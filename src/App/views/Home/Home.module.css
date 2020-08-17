@@ -47,6 +47,7 @@ section.block{
     bottom: 0;
     left: 0;
     width: 100vw;
+    pointer-events: none;
 }
 
 .bg path{
