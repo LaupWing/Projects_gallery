@@ -1,3 +1,6 @@
+svg.logo{
+    width: 50px;
+}
 .cls-1{
     fill:var(--accent-color);
 }
