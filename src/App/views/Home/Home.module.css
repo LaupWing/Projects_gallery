@@ -45,6 +45,11 @@ section.block{
     /* position: relative; */
 }
 
+section.with_color{
+    background: var(--main-color);
+    border: solid 1px var(--highlight-color);
+}
+
 .bg{
     position: absolute;
     bottom: 0;
@@ -57,6 +62,7 @@ section.block{
 
 .bg path{
     fill:#669db2;
+    stroke-width: 5px;
     stroke:#c8c8c8;
     stroke-miterlimit:10;
 }
