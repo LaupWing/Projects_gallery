@@ -42,17 +42,21 @@ section.block{
     width: 100%;
     height: 100vh;
     max-height: 600px;
-    position: relative;
+    /* position: relative; */
 }
 
 .bg{
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100vw;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    width: 55vw;
     pointer-events: none;
 }
 
 .bg path{
     fill:#669db2;
+    stroke:#c8c8c8;
+    stroke-miterlimit:10;
 }
