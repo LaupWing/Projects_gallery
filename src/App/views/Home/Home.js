@@ -45,7 +45,7 @@ const Home = ()=>{
                 </div>
                 <img className={styles.is_50} src={profile} alt="profile-placholder" />
                 <div className={styles.icons}>
-                    {icons && icons.map(icon=><Icon icon={icon}/>)}
+                    {icons && icons.map(icon=><Icon key={icon} icon={icon}/>)}
                 </div>
             </section>
 
