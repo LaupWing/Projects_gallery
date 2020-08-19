@@ -22,7 +22,9 @@ const Home = ()=>{
             <img alt="laptop" className={styles.laptop} src={laptop} />
         </section>
         <section className={`${styles.block} ${styles.with_color}`}>
-            <p className={styles.content}>Who am I?I am currently a student at the Hoge School van Amsterdam and I live in Heiloo. Im very passioned about code and programming in general. Interested on which programming languages and frameworks I have used? Click on the the skills link above!</p>
+            <div className={styles.block_content}>
+                <p className={styles.content}>Who am I?I am currently a student at the Hoge School van Amsterdam and I live in Heiloo. Im very passioned about code and programming in general. Interested on which programming languages and frameworks I have used? Click on the the skills link above!</p>
+            </div>
         </section>
     </>
     )
