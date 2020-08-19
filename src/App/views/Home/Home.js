@@ -30,6 +30,7 @@ const Home = ()=>{
         </section>
 
         <h2 className={styles.banner}>How to use this?</h2>
+        <p>Below you can find an explaination of how you can use this website to browse through the projects and what you can do with it</p>
     </>
     )
 }
