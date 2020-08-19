@@ -3,8 +3,7 @@ import Tooltip from '../../../../components/Tooltip/Tooltip';
 import styles from './Icon.module.css';
 import icons_loader from '../../../../components/Icons/icons_loader';
 
-const Icon = ({iconObj})=>{
-    const {icon, message} = iconObj;
+const Icon = ({icon})=>{
     const Component = icons_loader[icon];
     const [showTooltip, setShowTooltip] = useState(false);
 
@@ -14,9 +13,9 @@ const Icon = ({iconObj})=>{
             onMouseOver={()=>setShowTooltip(true)}
             onMouseOut={()=>setShowTooltip(false)}
         >
-            {showTooltip && <Tooltip
+            {/* {showTooltip && <Tooltip
                 message={message}
-            />}
+            />} */}
             <Component/>
         </div>
     );
