@@ -65,6 +65,7 @@ section.with_color{
     background: var(--main-color);
     border: solid 1px var(--highlight-color);
     padding: 20px;
+    border-radius: 5px;
     align-items: center;
 }
 h2.banner{
