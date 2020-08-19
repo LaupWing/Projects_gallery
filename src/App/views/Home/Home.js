@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Home.module.css'
 import Logo from '../../../components/Logo/Logo'
 const laptop = require('../../../assets/other/laptop.svg')
+const profile = require('../../../assets/other/profile_placeholder.png')
 
 const Home = ()=>{
     return(
@@ -25,6 +26,7 @@ const Home = ()=>{
             <div className={styles.block_content}>
                 <p className={styles.content}>Who am I?I am currently a student at the Hoge School van Amsterdam and I live in Heiloo. Im very passioned about code and programming in general. Interested on which programming languages and frameworks I have used? Click on the the skills link above!</p>
             </div>
+            <img className={styles.is_50} src={profile} alt="profile-placholder" />
         </section>
     </>
     )

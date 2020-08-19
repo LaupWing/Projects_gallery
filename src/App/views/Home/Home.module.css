@@ -68,6 +68,10 @@ section.with_color{
     align-items: center;
 }
 
+section.with_color img.is_50{
+    width: 50%;
+}
+
 .bg{
     position: absolute;
     bottom: 0;
