@@ -1,14 +1,27 @@
 import React from 'react'
 import styles from './Home.module.css'
 import Logo from '../../../components/Logo/Logo'
-import icons_loader from '../../../components/Icons/icons_loader'
 import Icon from './Icon/Icon'
 const laptop = require('../../../assets/other/laptop.svg')
 const profile = require('../../../assets/other/profile_placeholder.png')
 
 const Home = ()=>{
-    const icons = Object.keys(icons_loader)
-    
+    const icons = [
+        'django',
+        'electron',
+        'firebase',
+        'laravel',
+        'mongodb',
+        'node',
+        'php',
+        'python',
+        'react',
+        'vue',
+        'javascript',
+        'css',
+        'github',
+        'flutter',
+        'typescript']
     return(
         <>
             <svg className={styles['bg']} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1289 2379">

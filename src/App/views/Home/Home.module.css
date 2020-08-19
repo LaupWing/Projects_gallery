@@ -54,7 +54,12 @@
     font-size: 1.5rem;
 }
 .icons{
-    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.icons svg{
+    width: 40px;
+    margin: 0 5px;
 }
 section.block{
     width: 100%;
@@ -69,6 +74,7 @@ section.with_color{
     padding: 20px;
     border-radius: 5px;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 h2.banner{
