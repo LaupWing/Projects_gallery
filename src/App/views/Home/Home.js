@@ -28,6 +28,8 @@ const Home = ()=>{
             </div>
             <img className={styles.is_50} src={profile} alt="profile-placholder" />
         </section>
+
+        <h2 className={styles.banner}>How to use this?</h2>
     </>
     )
 }

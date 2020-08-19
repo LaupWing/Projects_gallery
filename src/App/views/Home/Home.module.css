@@ -67,7 +67,16 @@ section.with_color{
     padding: 20px;
     align-items: center;
 }
-
+h2.banner{
+    color: var(--pinkish);
+    border-bottom: 1px solid var(--pinkish);
+    width: 70%;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 100px;
+}
 section.with_color img.is_50{
     width: 50%;
 }
