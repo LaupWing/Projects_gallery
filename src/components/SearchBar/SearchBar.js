@@ -9,7 +9,7 @@ import {connect} from 'react-redux';
 import * as actionTypes from '../../store/actionTypes';
 
 const SearchBar = ({setMessage, onToggleFilter, onSortBy, onSearch})=>{
-    const [showMore, setShowMore] = useState(false);
+    const [showMore, setShowMore] = useState(true);
 
     const setModifier = (iconObj)=>{
         setMessage(iconObj);

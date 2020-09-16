@@ -41,7 +41,7 @@ const Home = ()=>{
             </section>
             <section className={`${styles.block} ${styles.with_color}`}>
                 <div className={styles.block_content}>
-                    <p className={styles.content}>Who am I?I am currently a Communcation Multimedia Design (Web Design) student at the Hoge School van Amsterdam and I live in Heiloo. Im very passioned about code and programming in general. Below you can find a little overview of the frameworks/languages I have used. To find more info about the skills/projects I have done navigate to that specifik part of this site by using the top navigation</p>
+                    <p className={styles.content}>Who am I?I am currently a Communcation Multimedia Design (Web Design) student at the Hoge School van Amsterdam and I live in Heiloo. Im very passioned about code and programming in general. Below you can find a little overview of the frameworks/languages I have used. To find more info about the skills/projects I have done, navigate to that specifik part of this site by using the top navigation</p>
                 </div>
                 <img className={styles.is_50} src={profile} alt="profile-placholder" />
                 <div className={styles.icons}>
@@ -49,8 +49,10 @@ const Home = ()=>{
                 </div>
             </section>
 
+            <h2 className={styles.banner}>Why only show your projects and skills?</h2>
+            <p>Because the way to show you are competent in coding is by showing working projects, or at least show that you are actively coding. This website is build to easily navigate through my projects, by using the sorting/filtering system on the top. Need a little explaination abou thow to use this website? Read the text below!</p>
             <h2 className={styles.banner}>How to use this?</h2>
-            <p>Below you can find an explaination of how you can use this website to browse through the projects and what you can do with it</p>
+            <p>Below you can find an explaination of how you can use this website to browse through the projects and what you can do with it. The explaination are about the sections Projects and Skills of this website. You can go to the Projects/Skills sections by using the links on top of this website.</p>
         </>
     )
 }
