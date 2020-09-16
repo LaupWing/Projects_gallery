@@ -4,6 +4,9 @@ import Logo from '../../../components/Logo/Logo'
 import Icon from './Icon/Icon'
 const laptop = require('../../../assets/other/laptop.svg')
 const profile = require('../../../assets/other/profile_placeholder.png')
+const madeByStatus = require('../../../assets/home/madeByStatus.gif')
+const sortBy = require('../../../assets/home/sortBy.gif')
+const filterBySkills = require('../../../assets/home/filterBySkills.gif')
 
 const Home = ()=>{
     const icons = [
@@ -53,6 +56,15 @@ const Home = ()=>{
             <p>Because the way to show you are competent in coding is by showing working projects, or at least show that you are actively coding. This website is build to easily navigate through my projects, by using the sorting/filtering system on the top. Need a little explaination abou thow to use this website? Read the text below!</p>
             <h2 className={styles.banner}>How to use this?</h2>
             <p>Below you can find an explaination of how you can use this website to browse through the projects and what you can do with it. The explaination are about the sections Projects and Skills of this website. You can go to the Projects/Skills sections by using the links on top of this website.</p>
+            <h2 className={styles.banner}>Projects: Filter Made By/Status</h2>
+            <p>By clicking on the icons you can filterout the projects. In Made By you can filter by project made by myself or made by following a tutorial. In Status you can filter by finished or unfinished projects</p>
+            <img alt="Filter Projects" className={styles.gif} src={madeByStatus}/>
+            <h2 className={styles.banner}>Projects: Sorting</h2>
+            <p>In the Sort section, you can sort the projects. The star sorts the projects by my favorites projects, and the arrows sorts the projects by date.</p>
+            <img alt="Sort By Projects" className={styles.gif} src={sortBy}/>
+            <h2 className={styles.banner}>Projects: Filter By Skills</h2>
+            <p>And as the last you can filter by the skills used in a specifik project. Toggle the skill on to activate it, and toggle it out to filter it out.</p>
+            <img alt="Filter Projects" className={styles.gif} src={filterBySkills}/>
         </>
     )
 }
